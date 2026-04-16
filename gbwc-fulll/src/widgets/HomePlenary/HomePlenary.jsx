@@ -6,9 +6,9 @@ import { sessions as sessionsApi } from '../../services/api'
 import './HomePlenary.css'
 
 const FALLBACK_PHOTOS = [
-  { main: '/img/plenary/session1_group.jpeg', thumbs: ['/img/plenary/plenar1_5_main.jpg', '/img/plenary/IMG_1887.jpg'] },
-  { main: '/img/plenary/plenar2_6.jpg',       thumbs: ['/img/plenary/IMG_2785.jpg',        '/img/plenary/IMG_2821.jpg'] },
-  { main: '/img/plenary/session3_group.jpeg', thumbs: ['/img/plenary/IMG_5454.jpg',         '/img/plenary/IMG_5843.jpg'] },
+  { main: '/img/plenary/session1_group.jpeg', thumbs: ['/img/plenary/plenar1_5_main.jpg', '/img/plenary/session1_ribbon.jpeg'] },
+  { main: '/img/plenary/plenar2_6.jpg',       thumbs: ['/img/plenary/plenar2_3.jpg',        '/img/plenary/plenar2_4.jpg'] },
+  { main: '/img/plenary/session3_group.jpeg', thumbs: ['/img/plenary/session3_group.jpeg',  '/img/plenary/plenar1_5_main.jpg'] },
 ]
 
 // Key facts per session (topics + results)

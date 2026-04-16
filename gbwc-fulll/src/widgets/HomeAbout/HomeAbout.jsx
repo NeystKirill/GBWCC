@@ -10,9 +10,6 @@ const SLIDESHOW = [
   '/img/plenary/session1_group.jpeg',
   '/img/plenary/session1_ribbon.jpeg',
   '/img/plenary/plenar1_5_main.jpg',
-  '/img/plenary/IMG_1929.jpg',
-  '/img/plenary/IMG_2926.jpg',
-  '/img/plenary/IMG_5970.jpg',
 ]
 
 function PhotoSlideshow() {
