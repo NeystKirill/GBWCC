@@ -1,0 +1,252 @@
+/* ══════════════════════════════════════════════════════
+   HOME INITIATIVES — Redesigned grid
+   Dark navy bg, 3-col → 2-col → 1-col
+   Each card links directly to its initiative anchor
+   ══════════════════════════════════════════════════════ */
+
+.hi2 {
+  background: #ffffff;
+  padding: var(--sp-section) var(--container-pad);
+}
+
+/* Subtle radial glow */
+.hi2::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 85% 15%, rgba(184,145,74,.045) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 15% 85%, rgba(184,145,74,.025) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hi2-inner {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* ── Header ── */
+.hi2-head { margin-bottom: 40px; max-width: 580px; }
+
+.hi2-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: #b8914a;
+  margin-bottom: 18px;
+}
+.hi2-eye-gem {
+  display: inline-block;
+  width: 6px; height: 6px;
+  background: #b8914a;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+.hi2-title {
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  font-weight: 200;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -.025em;
+  margin: 0 0 16px;
+}
+.hi2-sub {
+  font-size: .9rem;
+  color: rgba(255,255,255,.38);
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Grid: 3 columns ── */
+.hi2-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ── Card ── */
+.hi2-card {
+  position: relative;
+  background: rgba(13,27,62,.8);
+  padding: 36px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-decoration: none;
+  transition: background .35s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.hi2-card:hover {
+  background: rgba(22,38,72,.95);
+}
+
+/* Gold top line — animated in on hover */
+.hi2-card-line {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #b8914a, rgba(184,145,74,.5), transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .4s cubic-bezier(.22,1,.36,1);
+}
+.hi2-card:hover .hi2-card-line {
+  transform: scaleX(1);
+}
+
+/* Background number watermark */
+.hi2-card-num {
+  position: absolute;
+  top: 16px; right: 20px;
+  font-size: 4rem;
+  font-weight: 200;
+  color: rgba(184,145,74,.06);
+  line-height: 1;
+  letter-spacing: -.04em;
+  pointer-events: none;
+  transition: color .35s;
+}
+.hi2-card:hover .hi2-card-num {
+  color: rgba(184,145,74,.1);
+}
+
+/* SVG icon */
+.hi2-card-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+.hi2-card-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Tag */
+.hi2-card-tag {
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: rgba(184,145,74,.5);
+  margin-bottom: 10px;
+  transition: color .3s;
+}
+.hi2-card:hover .hi2-card-tag {
+  color: #b8914a;
+}
+
+/* Title */
+.hi2-card-title {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: rgba(255,255,255,.88);
+  line-height: 1.3;
+  margin: 0 0 12px;
+  transition: color .3s;
+}
+.hi2-card:hover .hi2-card-title {
+  color: #ffffff;
+}
+
+/* Description */
+.hi2-card-desc {
+  font-size: .82rem;
+  color: rgba(255,255,255,.35);
+  line-height: 1.75;
+  margin: 0 0 auto;
+  flex: 1;
+  padding-bottom: 20px;
+  transition: color .3s;
+}
+.hi2-card:hover .hi2-card-desc {
+  color: rgba(255,255,255,.5);
+}
+
+/* CTA link */
+.hi2-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(184,145,74,.45);
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,.06);
+  transition: color .3s, gap .3s;
+  margin-top: auto;
+}
+.hi2-card:hover .hi2-card-cta {
+  color: #b8914a;
+  gap: 10px;
+}
+
+/* ── Footer ── */
+.hi2-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 8px;
+}
+
+.hi2-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 36px;
+  border: 1.5px solid rgba(184,145,74,.3);
+  border-radius: 4px;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(184,145,74,.7);
+  text-decoration: none;
+  transition: border-color .3s, color .3s, background .3s;
+}
+.hi2-all-btn:hover {
+  border-color: #b8914a;
+  color: #b8914a;
+  background: rgba(184,145,74,.06);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .hi2-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 760px) {
+  .hi2-grid { grid-template-columns: repeat(2, 1fr); }
+  .hi2-card { padding: 28px 22px 26px; }
+}
+@media (max-width: 480px) {
+  .hi2-grid { grid-template-columns: 1fr; }
+  .hi2-card-num { font-size: 3rem; }
+}
+
+.hi2-card-wrap {
+  background: linear-gradient(145deg, #1e3a60 0%, #243f6a 60%, #2a5080 100%);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  padding: 56px clamp(20px,4vw,56px) 56px;
+}
+.hi2-card-wrap::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 85% 15%, rgba(184,145,74,.045) 0%, transparent 60%),
+              radial-gradient(ellipse 50% 60% at 15% 85%, rgba(184,145,74,.025) 0%, transparent 60%);
+  pointer-events: none;
+}

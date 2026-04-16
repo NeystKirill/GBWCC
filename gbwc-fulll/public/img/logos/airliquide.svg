@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <rect width="160" height="60" fill="#ffffff"/>
+  <rect x="6" y="22" width="26" height="16" rx="8" fill="#00205B"/>
+  <text x="40" y="35" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#00205B">Air Liquide</text>
+  <rect x="6" y="42" width="148" height="2" fill="#00205B" opacity="0.15"/>
+</svg>

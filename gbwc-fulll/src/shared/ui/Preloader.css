@@ -1,0 +1,45 @@
+.pl {
+  position: fixed; inset: 0; z-index: 9999999;
+  background: #ffffff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 32px;
+  transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.22,1,0.36,1);
+}
+.pl--out { opacity: 0; transform: scale(1.04); pointer-events: none; }
+
+.pl-wrap {
+  position: relative; width: 220px; height: 220px;
+  display: flex; align-items: center; justify-content: center;
+}
+.pl-canvas { position: absolute; inset: 0; }
+.pl-logo {
+  position: relative; z-index: 2; width: 70px; height: 70px;
+  opacity: 0; animation: pl-pop 0.6s cubic-bezier(0.22,1,0.36,1) 0.25s forwards;
+}
+@keyframes pl-pop { from{opacity:0;transform:scale(0.6)} to{opacity:1;transform:scale(1)} }
+
+.pl-letters { position: absolute; inset: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s; }
+.pl-letters--hide { opacity: 0; transform: scale(1.08); }
+.pl-char {
+  position: absolute; font-size: 15px; font-weight: 700; letter-spacing: 3px;
+  color: rgba(184,145,74,0.55);
+  opacity: 0; animation: pl-char-in 0.3s ease forwards;
+}
+.pl-char:nth-child(1){top:12px;left:12px}
+.pl-char:nth-child(2){top:12px;right:12px}
+.pl-char:nth-child(3){bottom:12px;left:12px}
+.pl-char:nth-child(4){bottom:12px;right:12px}
+@keyframes pl-char-in { to{opacity:1} }
+
+.pl-footer { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.pl-line {
+  height: 1px; background: linear-gradient(90deg,transparent,rgba(184,145,74,0.5),transparent);
+  width: 0; animation: pl-line 0.7s ease 0.5s forwards;
+}
+@keyframes pl-line { to{width:140px} }
+.pl-name {
+  font-size: 9px; letter-spacing: 4.5px; text-transform: uppercase;
+  color: rgba(255,255,255,0.18);
+  opacity: 0; animation: pl-fade 0.5s ease 0.9s forwards;
+}
+@keyframes pl-fade { to{opacity:1} }

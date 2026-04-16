@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="1200"
+   viewBox="0 0 1200 1200"
+   version="1.1"
+   id="svg896"
+   sodipodi:docname="AIIB_logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview898"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.21538094"
+     inkscape:cx="104.46607"
+     inkscape:cy="893.76524"
+     inkscape:window-width="1280"
+     inkscape:window-height="737"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg896" />
+  <!-- Generator: sketchtool 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title862">2BA08022-8070-43E8-8C92-56694CC79811</title>
+  <desc
+     id="desc864">Created with sketchtool.</desc>
+  <defs
+     id="defs868">
+    <polygon
+       id="path-1"
+       points="0.04454321,10.532232 39.887177,10.532232 39.887177,0.08937963 0.04454321,0.08937963 " />
+    <polygon
+       id="path-3"
+       points="54.836811,0.22685185 0,0.22685185 0,48.91062 54.836811,48.91062 " />
+  </defs>
+  <g
+     id="g885"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(21.833111,0,0,21.833111,-0.0014146,61.273975)">
+    <g
+       id="Group-3"
+       transform="translate(7.921811,0.137472)">
+      <mask
+         id="mask-2"
+         fill="#ffffff">
+        <use
+           xlink:href="#path-1"
+           id="use870"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+      <g
+         id="Clip-2" />
+      <path
+         d="M 7.056251,10.532232 C 10.443391,7.3701444 14.981231,5.4292 19.965407,5.4292 c 4.983951,0 9.522469,1.9409444 12.909609,5.103032 h 7.012161 C 35.493514,4.2264315 28.204769,0.08933426 19.965407,0.08933426 c -8.23823,0 -15.5278803,4.13709724 -19.92086379,10.44289774 z"
+         id="Fill-1"
+         fill="#860c14"
+         mask="url(#mask-2)" />
+    </g>
+    <path
+       d="m 40.796895,38.467473 c -3.387592,3.161861 -7.925885,5.103259 -12.909609,5.103259 -4.984403,0 -9.521564,-1.941398 -12.908704,-5.103259 H 7.9668745 c 4.3923045,6.305347 11.6824075,10.443125 19.9204115,10.443125 8.239136,0 15.527881,-4.137778 19.921543,-10.443125 z"
+       id="Fill-4"
+       fill="#860c14" />
+    <path
+       d="m 7.154821,27.164761 h 5.339753 L 9.8611379,18.942288 Z M 7.4422695,14.165015 H 12.37122 l 7.376338,20.897139 H 15.023669 L 13.647763,30.76558 H 5.9697181 l -1.412572,4.296574 H 6.7901235e-5 Z"
+       id="Fill-6"
+       fill="#860c14" />
+    <mask
+       id="mask-4"
+       fill="#ffffff">
+      <use
+         xlink:href="#path-3"
+         id="use878"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+    <g
+       id="Clip-9" />
+    <polygon
+       id="Fill-8"
+       fill="#860c14"
+       mask="url(#mask-4)"
+       points="21.721831,35.061995 26.04963,35.061995 26.04963,14.165083 21.721831,14.165083 " />
+    <polygon
+       id="Fill-10"
+       fill="#860c14"
+       mask="url(#mask-4)"
+       points="29.770391,35.061995 34.098642,35.061995 34.098642,14.165083 29.770391,14.165083 " />
+    <path
+       d="m 41.894541,25.861247 v 5.571255 h 5.061584 c 0.90354,0 1.607902,-0.122727 2.111729,-0.369088 0.913498,-0.45325 1.369568,-1.323 1.369568,-2.607435 0,-1.087074 -0.442037,-1.834324 -1.327469,-2.240616 -0.494774,-0.227759 -1.188725,-0.345722 -2.083437,-0.354116 z m 0,-8.067078 v 4.607361 h 5.067469 c 0.904897,0 1.640494,-0.172635 2.204074,-0.517223 0.564486,-0.344814 0.847408,-0.956861 0.847408,-1.836139 0,-0.973875 -0.373004,-1.616319 -1.119692,-1.92824 -0.644156,-0.217324 -1.465082,-0.325759 -2.464135,-0.325759 z M 53.215488,16.39109 c 0.637366,0.887898 0.956502,1.951606 0.956502,3.189083 0,1.275588 -0.321399,2.301639 -0.965782,3.076111 -0.359877,0.435556 -0.889054,0.832547 -1.5907,1.191199 1.064465,0.38769 1.867737,1.002232 2.40891,1.844079 0.542304,0.84094 0.812551,1.860866 0.812551,3.060685 0,1.239746 -0.309856,2.349732 -0.928889,3.332908 -0.392922,0.651745 -0.885432,1.198912 -1.476399,1.643768 -0.665432,0.510417 -1.449691,0.860449 -2.355041,1.048736 -0.905803,0.190102 -1.887428,0.284472 -2.946687,0.284472 h -9.39391 V 14.164993 H 47.81236 c 2.541543,0.03743 4.342963,0.780143 5.403128,2.226097 z"
+       id="Fill-11"
+       fill="#860c14"
+       mask="url(#mask-4)" />
+  </g>
+  <metadata
+     id="metadata1186">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>2BA08022-8070-43E8-8C92-56694CC79811</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

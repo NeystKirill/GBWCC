@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="4" fill="#E87722"/>
+  <text x="10" y="36" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="white">ДАМУ</text>
+  <text x="54" y="28" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#E87722">Фонд</text>
+  <text x="54" y="43" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#E87722">«Даму»</text>
+</svg>

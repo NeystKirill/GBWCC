@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <rect width="160" height="60" fill="#ffffff"/>
+  <polygon points="6,15 22,15 30,30 22,45 6,45 14,30" fill="#DA1F3D"/>
+  <polygon points="18,15 34,15 42,30 34,45 18,45 26,30" fill="#005DAA"/>
+  <text x="50" y="36" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#333">Chevron</text>
+</svg>

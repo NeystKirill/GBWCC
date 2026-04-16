@@ -1,0 +1,458 @@
+/* ══════════════════════════════════════════════════════════════════
+   MOBILE ADAPTATION
+   Breakpoints: 428px · 412px · 390px · 360px (+ 320px edge case)
+   Strategy:
+     428px — large phones (iPhone Plus/Max, Samsung Ultra)
+     412px — standard Android (Pixel, Samsung S)
+     390px — iPhone 14/15 standard
+     360px — most common Android baseline
+     320px — legacy / small phones
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────────────
+   1. CSS VARIABLES — tighter spacing on all phones
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  :root {
+    --container-pad: 16px;
+    --sp-section:    56px;
+    --gap:           12px;
+    --hero-h:        auto;
+    --hero-pad-t:    84px;
+    --hero-pad-b:    32px;
+    --nav-pill-w:    auto;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --container-pad: 14px;
+    --sp-section:    48px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --container-pad: 12px;
+    --sp-section:    40px;
+  }
+}
+
+/* ─────────────────────────────────────────────────────
+   2. HEADER — burger menu, compact pill
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .logo-nav { left: 12px; top: 14px; }
+  .logo-circle { width: 44px; height: 44px; }
+  .logo-circle img { width: 26px; height: 26px; }
+
+  .header-row { top: 14px; }
+  .glassnav-links,
+  .glassnav-cta,
+  .cta-pill,
+  .lang-pill { display: none !important; }
+  .nav-burger { display: flex !important; }
+  .nav-pill { width: auto !important; padding: 0 8px !important; }
+  .glassnav { width: auto !important; }
+}
+
+/* ─────────────────────────────────────────────────────
+   3. HERO — video/image hero
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .vh { min-height: 85svh; }
+  .vh-content { padding: 0 var(--container-pad) 40px; }
+  .vh-title { font-size: clamp(2rem, 8vw, 2.6rem); }
+  .vh-sub   { font-size: .85rem; }
+  .vh-stats { flex-wrap: wrap; gap: 12px; }
+  .vh-stat  { min-width: calc(50% - 6px); }
+}
+
+/* ─────────────────────────────────────────────────────
+   4. PAGE HERO (inner pages)
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .page-hero { height: auto; min-height: 280px; }
+  .page-hero__content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--hero-pad-t) var(--container-pad) var(--hero-pad-b);
+    gap: 12px;
+  }
+  .page-hero__title { font-size: clamp(2rem, 7vw, 2.4rem); }
+  .page-hero__right { max-width: 100%; }
+  .stats-belt__inner { flex-wrap: wrap; gap: 0; }
+  .stat-item { padding: 16px 20px 16px 0; min-width: calc(50% - 20px); }
+  .stat-item__value { font-size: 1.6rem; }
+  .stat-item__label { font-size: .55rem; }
+}
+
+@media (max-width: 360px) {
+  .page-hero__title { font-size: 1.8rem; }
+  .stat-item { min-width: 100%; border-right: none; }
+}
+
+/* ─────────────────────────────────────────────────────
+   5. HOME — ABOUT SECTION
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .ha { padding: var(--sp-section) var(--container-pad); }
+  .ha-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .ha-heading { font-size: clamp(1.7rem, 6.5vw, 2.2rem); }
+  .ha-body { font-size: .92rem; }
+  .ha-photo-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .ha-badge { padding: 18px 20px; }
+  .ha-stats-row { gap: 16px; }
+  .ha-stat-n { font-size: 1.4rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   6. HOME — STATS BLOCK
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hs { padding: 0 var(--container-pad); }
+  .hs-inner {
+    grid-template-columns: 1fr 1fr;
+    padding: 28px 20px;
+  }
+  .hs-card { padding: 20px 12px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .hs-card:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.06); }
+  .hs-card:nth-last-child(-n+2) { border-bottom: none; }
+  .hs-card-num { font-size: clamp(2rem, 8vw, 2.8rem); }
+  .hs-card-label { font-size: 10px; }
+  .hs-card-desc { font-size: .72rem; }
+}
+
+@media (max-width: 360px) {
+  .hs-inner { grid-template-columns: 1fr; }
+  .hs-card { border-right: none !important; }
+  .hs-card:nth-last-child(-n+1) { border-bottom: none; }
+}
+
+/* ─────────────────────────────────────────────────────
+   7. HOME — MISSION (hm)
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hm { padding: var(--sp-section) var(--container-pad); }
+  .hm-inner { grid-template-columns: 1fr; gap: 28px; }
+  .hm-title { font-size: clamp(1.8rem, 7vw, 2.4rem); }
+  .hm-lead  { font-size: .9rem; }
+  .hm-quote { padding: 20px 18px 20px 22px; }
+  .hm-quote p { font-size: .88rem; }
+  .hm-pillar { padding: 20px 20px; gap: 14px; }
+  .hm-pillar-text { font-size: .82rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   8. HOME — DIRECTIONS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hd { padding: var(--sp-section) var(--container-pad); }
+  .hd-grid { grid-template-columns: 1fr !important; }
+  .hd-card:nth-child(n) { grid-column: span 1 !important; }
+  .hd-card { padding: 24px 20px 22px; border-radius: 10px; }
+  .hd-title { font-size: clamp(1.7rem, 6.5vw, 2.2rem); }
+}
+
+/* ─────────────────────────────────────────────────────
+   9. HOME — PLENARY
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hp { padding: var(--sp-section) var(--container-pad); }
+  .hp-content { grid-template-columns: 1fr; gap: 24px; }
+  .hp-photos { display: none; }  /* hide on very small screens */
+  .hp-tabs { overflow-x: auto; scrollbar-width: none; gap: 0; }
+  .hp-tabs::-webkit-scrollbar { display: none; }
+  .hp-tab { min-width: 140px; padding: 14px 16px; }
+  .hp-title { font-size: clamp(1.7rem, 6.5vw, 2.2rem); }
+  .hp-session-title { font-size: clamp(1.2rem, 5.5vw, 1.6rem); }
+  .hp-cta { padding: 12px 24px; font-size: .72rem; }
+}
+
+@media (max-width: 390px) {
+  .hp-tab { min-width: 120px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   10. HOME — KEY PEOPLE
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hkp { padding: var(--sp-section) var(--container-pad); }
+  .hkp-grid { grid-template-columns: repeat(2, 1fr); gap: 12px 10px; }
+  .hkp-title { font-size: clamp(1.7rem, 6.5vw, 2.2rem); }
+  .hkp-name  { font-size: .78rem; }
+  .hkp-role  { font-size: .65rem; }
+  .hkp-org   { font-size: .58rem; }
+}
+
+@media (max-width: 360px) {
+  .hkp-grid { grid-template-columns: repeat(2, 1fr); gap: 10px 8px; }
+  .hkp-name  { font-size: .72rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   11. HOME — INITIATIVES
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hi2 { padding: var(--sp-section) var(--container-pad); }
+  .hi2-card-wrap { padding: 28px 16px 28px; border-radius: 12px; }
+  .hi2-grid { grid-template-columns: 1fr !important; }
+  .hi2-card { padding: 24px 20px 22px; }
+  .hi2-title { font-size: clamp(1.7rem, 6.5vw, 2.2rem); }
+  .hi2-card-title { font-size: .95rem; }
+  .hi2-card-desc  { font-size: .8rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   12. HOME — PARTNERS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .home-partners { padding: var(--sp-section) var(--container-pad) !important; }
+  .home-partners-inner { padding: 0 !important; }
+  .home-section-title { font-size: clamp(1.7rem, 6.5vw, 2.2rem) !important; }
+  .home-partners-stats { flex-wrap: wrap; gap: 8px; }
+  .hp-stat { min-width: calc(50% - 4px); border-right: none !important; }
+  /* Marquee stays as-is, just smaller chips */
+  .home-logo-chip { padding: 10px 14px; }
+  .home-logo-chip-img { height: 28px; }
+  /* Accordion */
+  .home-acc-panel { padding: 16px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   13. HOME — COOP
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .hc { padding: var(--sp-section) var(--container-pad); }
+  .hc-card { padding: 36px 20px; border-radius: 12px; }
+  .hc-title { font-size: clamp(1.7rem, 7vw, 2.4rem); }
+  .hc-text  { font-size: .85rem; }
+  .hc-tags  { gap: 6px; }
+  .hc-tag   { padding: 6px 12px; font-size: .75rem; }
+  .hc-btns  { flex-direction: column; width: 100%; }
+  .hc-btns .lyt-btn { width: 100%; justify-content: center; }
+}
+
+/* ─────────────────────────────────────────────────────
+   14. SEPARATOR
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .home-section-sep { height: 56px; }
+  .home-sep-logo { width: 26px; height: 26px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   15. INNER PAGES — FOUNDERS / LEADERSHIP
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .ldr-section { padding: 0 var(--container-pad) 60px; }
+  .ldr-block,
+  .ldr-block--reversed {
+    grid-template-columns: 1fr !important;
+    direction: ltr !important;
+    padding: 40px 0;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden;
+  }
+  .ldr-block--reversed > * { direction: ltr !important; order: unset !important; }
+  /* Photo col — full width, fixed height, no sticky */
+  .ldr-photo-col {
+    width: 100% !important;
+    position: static !important;
+    top: auto !important;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+  }
+  .ldr-photo-side {
+    width: 100% !important;
+    height: 240px !important;
+    position: relative !important;
+  }
+  .ldr-slide {
+    width: 100% !important;
+  }
+  .ldr-slide-frame {
+    width: 100% !important;
+    height: 160px !important;
+  }
+  .ldr-text-side,
+  .ldr-block--reversed .ldr-text-side {
+    padding: 0 !important;
+    position: static !important;
+    width: 100% !important;
+  }
+  .ldr-text-side::before,
+  .ldr-block--reversed .ldr-text-side::before { display: none; }
+  .ldr-name { font-size: clamp(1.4rem, 5.5vw, 1.8rem); }
+  .ldr-cols { grid-template-columns: 1fr; }
+  .ldr-bio-p { font-size: .9rem; }
+  .ldr-list-item { font-size: .82rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   16. INNER PAGES — INITIATIVES
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .init2-section { padding: 0 var(--container-pad) 60px; }
+  .init2-block,
+  .init2-block--reversed {
+    grid-template-columns: 1fr !important;
+    direction: ltr !important;
+    padding: 40px 0;
+    position: relative;
+  }
+  .init2-block--reversed > * { order: unset !important; direction: ltr !important; }
+  /* Hide SVG visual on mobile — text only */
+  .init2-visual-side {
+    display: none !important;
+  }
+  .init2-text-side,
+  .init2-block--reversed .init2-text-side {
+    padding: 0 !important;
+    position: static !important;
+  }
+  .init2-text-side::before,
+  .init2-block--reversed .init2-text-side::before { display: none; }
+  .init2-text-title { font-size: clamp(1.4rem, 5.5vw, 1.8rem); }
+  .init2-cols { grid-template-columns: 1fr; }
+}
+
+/* ─────────────────────────────────────────────────────
+   17. INNER PAGES — EVENTS / SESSIONS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .ev2-inner { padding: 0 var(--container-pad); }
+  .ev2-body { grid-template-columns: 1fr !important; gap: 32px; }
+  .ev2-info-col { position: static !important; }
+  .ev2-people-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .ev2-portrait-name { font-size: .8rem; }
+  .ev2-portrait-title { font-size: .68rem; }
+  .ev2-stats-belt { flex-wrap: wrap; }
+  .ev2-stat { min-width: 40%; border-right: none; padding-right: 0; }
+  .ev2-stat-val { font-size: 1.5rem; }
+  .ev2-topic-item,
+  .ev2-result-item { font-size: .82rem; }
+  .ev2-session-theme { font-size: clamp(1.2rem, 5vw, 1.6rem); }
+  .ev2-photo-strip-track { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 360px) {
+  .ev2-people-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   18. INNER PAGES — PARTNERS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .part2-section { padding: 0 var(--container-pad) 60px; }
+  .part2-pcards-grid { grid-template-columns: 1fr !important; }
+  .part2-pcard { min-height: auto; }
+  .part2-cat-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .part2-cat-header-left { flex-direction: column; gap: 8px; }
+  .part2-logo-chip { padding: 8px 12px; }
+  .part2-logo-chip-img { height: 28px; }
+  .part2-search-wrap { flex-direction: column; gap: 8px; }
+}
+
+@media (max-width: 360px) {
+  .part2-logo-chip { padding: 6px 10px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   19. INNER PAGES — MEDIA
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .med-section { padding: 40px 0 60px; }
+  .med-inner { padding: 0 var(--container-pad); }
+  .med-grid { grid-template-columns: 1fr !important; gap: 16px; }
+  .med-filters { gap: 6px; }
+  .med-filter-btn { padding: 7px 14px; font-size: .75rem; }
+  .med-card-title { font-size: .92rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   20. INNER PAGES — ABOUT
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .split-section { grid-template-columns: 1fr !important; }
+  .split-section--reversed { direction: ltr !important; }
+}
+
+/* ─────────────────────────────────────────────────────
+   21. CONTACTS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .ct3-body-inner { grid-template-columns: 1fr !important; gap: 32px; }
+  .ct3-form-grid { grid-template-columns: 1fr !important; }
+}
+
+/* ─────────────────────────────────────────────────────
+   22. FOOTER
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .footer-top { grid-template-columns: 1fr !important; gap: 24px; }
+  .footer-bottom { flex-direction: column; gap: 12px; align-items: flex-start; }
+  .footer-logo-wrap { flex-direction: row; align-items: center; gap: 12px; }
+  .footer-logo-img { width: 36px; height: 36px; }
+  .footer-logo-name { font-size: .65rem; }
+  .footer-links { flex-wrap: wrap; gap: 8px 16px; }
+  .footer-link { font-size: .75rem; }
+  .footer-copy { font-size: .72rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   23. NAVIGATION TIMELINE (events page)
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .ev2-timeline { flex-direction: column; gap: 0; }
+  .ev2-tl-item { padding: 14px 0; border-bottom: 1px solid rgba(13,27,62,.06); border-left: none; }
+  .ev2-tl-item.active { border-left: 2px solid #b8914a; padding-left: 12px; }
+}
+
+/* ─────────────────────────────────────────────────────
+   24. GENERAL TYPOGRAPHY SCALE
+───────────────────────────────────────────────────── */
+@media (max-width: 390px) {
+  /* Prevent text overflow on narrow screens */
+  h1, h2, h3 { word-break: break-word; hyphens: auto; }
+  .lyt-btn { padding: 10px 20px; font-size: .72rem; }
+}
+
+@media (max-width: 360px) {
+  .lyt-btn { padding: 9px 16px; font-size: .7rem; }
+}
+
+/* ─────────────────────────────────────────────────────
+   25. TOUCH-FRIENDLY INTERACTIVE ELEMENTS
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  /* Minimum touch target 44px */
+  button, a, [role="button"] { min-height: 44px; }
+  .lyt-btn { min-height: 44px; display: inline-flex; align-items: center; }
+
+  /* No hover effects on touch */
+  .hd-card:hover,
+  .hi2-card:hover,
+  .hkp-card:hover { transform: none; }
+}
+
+/* ─────────────────────────────────────────────────────
+   26. VIEWPORT EDGE OVERFLOW PREVENTION
+───────────────────────────────────────────────────── */
+@media (max-width: 428px) {
+  .home-section-sep::before { display: none; }
+  /* Prevent wide cards from causing horizontal scroll */
+  .hi2-card-wrap,
+  .hm-pillars,
+  .hs-inner { border-radius: 12px; }
+
+  /* Sticky panels → static on mobile, no overflow */
+  .ldr-photo-col,
+  .ev2-info-col { position: static !important; top: auto !important; }
+  /* Initiatives SVG hidden on mobile (already hidden above) */
+  .init2-visual-side { display: none !important; }
+}

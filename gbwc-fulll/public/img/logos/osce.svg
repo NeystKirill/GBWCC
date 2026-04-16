@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <circle cx="24" cy="30" r="15" fill="#003087"/>
+  <circle cx="24" cy="30" r="10" fill="none" stroke="white" stroke-width="1.5"/>
+  <circle cx="24" cy="30" r="5" fill="white"/>
+  <text x="46" y="28" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#003087">OSCE</text>
+  <text x="46" y="43" font-family="Arial,sans-serif" font-size="7" fill="#666">Organization for Security</text>
+  <text x="46" y="52" font-family="Arial,sans-serif" font-size="7" fill="#666">and Co-operation in Europe</text>
+</svg>

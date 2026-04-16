@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <rect width="160" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="4" fill="#00205B"/>
+  <text x="11" y="36" font-family="Arial,sans-serif" font-size="15" font-weight="800" fill="white">AIFC</text>
+  <text x="54" y="25" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#00205B">Astana International</text>
+  <text x="54" y="37" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#00205B">Financial Centre</text>
+</svg>

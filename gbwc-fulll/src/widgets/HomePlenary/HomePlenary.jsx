@@ -1,0 +1,168 @@
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { MotionSection, TiltCard } from '../../shared/animations/MotionSection'
+import { PLENARY_DATA, PLENARY_LABELS } from '../../shared/constants/homeData'
+import { sessions as sessionsApi } from '../../services/api'
+import './HomePlenary.css'
+
+const FALLBACK_PHOTOS = [
+  { main: '/img/plenary/session1_group.jpeg', thumbs: ['/img/plenary/plenar1_5_main.jpg', '/img/plenary/IMG_1887.jpg'] },
+  { main: '/img/plenary/plenar2_6.jpg',       thumbs: ['/img/plenary/IMG_2785.jpg',        '/img/plenary/IMG_2821.jpg'] },
+  { main: '/img/plenary/session3_group.jpeg', thumbs: ['/img/plenary/IMG_5454.jpg',         '/img/plenary/IMG_5843.jpg'] },
+]
+
+// Key facts per session (topics + results)
+const SESSION_FACTS = {
+  ru: [
+    {
+      topics: ['Развитие предпринимательства', 'Международное сотрудничество', 'Участие женщин в глобальной экономике', 'Устойчивые бизнес-модели'],
+      results: ['Создание Глобального совета Женщин Бизнеса (GBWC)', 'Определение ключевых векторов деятельности Совета', 'Объединение участниц из 13+ стран'],
+    },
+    {
+      topics: ['Зеленая экономика и развитие', 'Социальные инвестиции как фактор роста', 'Поддержка женского предпринимательства', 'Цифровая трансформация бизнеса'],
+      results: ['GBWC стал оператором проекта Центров поддержки семьи', 'Подписаны меморандумы для реализации социальных программ', 'Запущена разработка рейтинговой системы G-Index'],
+    },
+    {
+      topics: ['Социальные инвестиции', 'Роль женщин в экономике', 'Государственно-частное партнёрство', 'Устойчивое развитие'],
+      results: ['Подписаны меморандумы с тремя министерствами РК', 'Согласована реализация цифровых и образовательных инициатив', 'Инициирован проект культурного обмена (выступление в Ватикане)'],
+    },
+  ],
+  en: [
+    {
+      topics: ['Entrepreneurship development', 'International cooperation', 'Women in global economy', 'Sustainable business models'],
+      results: ['Establishment of the Global Businesswomen Council (GBWC)', 'Defining the Council key activities', 'Uniting participants from 13+ countries'],
+    },
+    {
+      topics: ['Green economy and development', 'Social investments as a growth factor', 'Support for women entrepreneurship', 'Business digital transformation'],
+      results: ['GBWC became operator of pilot Family Support Centres', 'MoUs signed for social programmes implementation', 'G-Index rating system development launched'],
+    },
+    {
+      topics: ['Social investments', "Women's role in economy", 'Public-private partnership', 'Sustainable development'],
+      results: ['MoUs signed with three Kazakhstan ministries', 'Joint implementation of digital and educational initiatives agreed', 'Cultural exchange project initiated (choir performance at the Vatican)'],
+    },
+  ],
+  kk: [
+    {
+      topics: ['Кәсіпкерлікті дамыту', 'Халықаралық ынтымақтастық', 'Әйелдердің жаһандық экономикаға қатысуы', 'Тұрақты бизнес-модельдер'],
+      results: ['Global Businesswomen Council (GBWC) құрылды', 'Кеңес қызметінің негізгі бағыттары айқындалды', '13+ елден қатысушыларды біріктіру'],
+    },
+    {
+      topics: ['Жасыл экономика және даму', 'Әлеуметтік инвестициялар', 'Әйелдер кәсіпкерлігін қолдау', 'Бизнесті цифрлық трансформациялау'],
+      results: ['GBWC Отбасын қолдау орталықтарының операторы болды', 'Әлеуметтік бағдарламаларды жүзеге асыру үшін меморандумдарға қол қойылды', 'G-Index рейтингтік жүйесін әзірлеу басталды'],
+    },
+    {
+      topics: ['Әлеуметтік инвестициялар', 'Әйелдердің экономикадағы рөлі', 'Мемлекеттік-жеке серіктестік', 'Тұрақты даму'],
+      results: ['ҚР үш министрлігімен меморандумдарға қол қойылды', 'Цифрлық және білім беру бастамаларын бірлесіп жүзеге асыру келісілді', 'Мәдени алмасу жобасы басталды (Ватиканда өнер көрсету)'],
+    },
+  ],
+}
+
+function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : '' }
+
+export default function HomePlenary({ lang }) {
+  const [active, setActive] = useState(0)
+  const [apiSessions, setApiSessions] = useState(null)
+
+  const staticSessions = PLENARY_DATA[lang] || PLENARY_DATA.ru
+  const lbl = PLENARY_LABELS[lang] || PLENARY_LABELS.ru
+  const facts = SESSION_FACTS[lang] || SESSION_FACTS.ru
+
+  useEffect(() => {
+    sessionsApi.list({ limit: 5 })
+      .then(data => {
+        const items = Array.isArray(data) ? data : data?.items || []
+        if (items.length > 0) setApiSessions(items)
+      })
+      .catch(() => {})
+  }, [lang])
+
+  const sessions = apiSessions
+    ? apiSessions.map(s => ({
+        id: s.id, title: s[`title${cap(lang)}`] || s.titleRu || s.titleEn,
+        year: s.year, desc: s[`description${cap(lang)}`] || s.descriptionRu || s.descriptionEn || '',
+        cover: s.coverImage, gallery: s.gallery || [],
+      }))
+    : staticSessions
+
+  const s = sessions[Math.min(active, sessions.length - 1)]
+  const apiSession = apiSessions ? apiSessions[Math.min(active, sessions.length - 1)] : null
+  const p = FALLBACK_PHOTOS[Math.min(active, FALLBACK_PHOTOS.length - 1)]
+  const f = facts[Math.min(active, facts.length - 1)]
+
+  const mainPhoto = apiSession?.coverImage || p.main
+  const thumbPhotos = apiSession?.gallery?.length >= 2 ? apiSession.gallery.slice(0, 2) : p.thumbs
+
+  const topicsLabel = lang === 'en' ? 'Topics' : lang === 'kk' ? 'Тақырыптар' : 'Темы'
+  const resultsLabel = lang === 'en' ? 'Key outcomes' : lang === 'kk' ? 'Нәтижелер' : 'Ключевые итоги'
+
+  return (
+    <section className="hp">
+      <div className="hp-inner">
+        <MotionSection animation="fadeUp" className="hp-header">
+          <div className="hp-label"><span className="hp-label-l" />{lbl.sectionLabel}</div>
+          <h2 className="hp-title">{lbl.sectionTitle}</h2>
+        </MotionSection>
+
+        <MotionSection animation="fadeUp" delay={.15} className="hp-tabs">
+          {sessions.map((se, i) => (
+            <button key={i} className={`hp-tab${i === active ? ' on' : ''}`} onClick={() => setActive(i)}>
+              <span className="hp-tab-n">{String(i + 1).padStart(2, '0')}</span>
+              <span className="hp-tab-t">{se.title}</span>
+              <span className="hp-tab-y">{se.year}</span>
+              {i === active && <span className="hp-tab-bar" />}
+            </button>
+          ))}
+        </MotionSection>
+
+        <MotionSection animation="fadeUp" delay={.2} className="hp-content">
+          {/* Left — photos */}
+          <div className="hp-photos">
+            <TiltCard className="hp-main-photo" intensity={5}>
+              <img src={mainPhoto} alt={s.title} loading="lazy" />
+              <div className="hp-photo-shine" />
+            </TiltCard>
+            <div className="hp-thumbs">
+              {thumbPhotos.map((thumb, i) => (
+                <TiltCard key={i} className="hp-thumb" intensity={8}>
+                  <img src={thumb} alt="" loading="lazy" />
+                </TiltCard>
+              ))}
+            </div>
+          </div>
+
+          {/* Right — info + dark facts card */}
+          <div className="hp-info">
+            <div className="hp-session-label">{lbl.sectionLabel} · {s.year}</div>
+            <h3 className="hp-session-title">{s.title}</h3>
+            <p className="hp-session-desc">{s.desc}</p>
+
+            {/* Dark facts card */}
+            <div className="hp-facts-card">
+              <div className="hp-facts-section">
+                <div className="hp-facts-label">{topicsLabel}</div>
+                <ul className="hp-facts-list">
+                  {f.topics.map((t, i) => <li key={i}>{t}</li>)}
+                </ul>
+              </div>
+              {f.results && (
+                <div className="hp-facts-section">
+                  <div className="hp-facts-label">{resultsLabel}</div>
+                  <ul className="hp-facts-list hp-facts-list--results">
+                    {f.results.map((r, i) => <li key={i}>{r}</li>)}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            <Link to={`/${lang}/events`} className="hp-cta">
+              {lbl.more}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <path d="M5 12H19M19 12L13 6M19 12L13 18" />
+              </svg>
+            </Link>
+          </div>
+        </MotionSection>
+      </div>
+    </section>
+  )
+}

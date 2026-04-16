@@ -1,0 +1,148 @@
+@import './shared/layout/layout.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --gold:    #b8914a;
+  --gold2:   #e8c96e;
+  --navy:    #1a3358;
+  --dark:    #06101f;
+  --cream:   #ffffff;
+  --cream2:  #ffffff;
+  --serif:   'Gilroy', 'Inter', system-ui, sans-serif;
+  --sans:    'Gilroy', 'Inter', system-ui, sans-serif;
+  --font-weight-body: 300;
+  --nav-sans:'Gilroy', 'Inter', system-ui, sans-serif;
+  --ease:    cubic-bezier(0.22,1,0.36,1);
+}
+
+html { scroll-behavior: smooth; font-size: 18.5px; }
+body { background: #ffffff;
+  font-family: var(--sans);
+  font-weight: 300;
+  background: var(--cream);
+  color: #1a3358;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+button { font-family: inherit; cursor: pointer; }
+img { display: block; }
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #f0f0f0; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, var(--gold), var(--gold2)); border-radius: 2px; }
+::selection { background: rgba(184,145,74,0.3); }
+
+/* ── Gold text utility ── */
+.gold-text {
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold2) 50%, var(--gold) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+
+/* ── Fade-up base (legacy support) ── */
+.fade-up { opacity:0; transform:translateY(40px); transition:opacity 0.9s var(--ease),transform 0.9s var(--ease); }
+.fade-up.visible { opacity:1; transform:none; }
+.stagger-children > * { opacity:0; transform:translateY(30px); transition:opacity 0.8s var(--ease),transform 0.8s var(--ease); }
+.stagger-children.visible > *:nth-child(1){opacity:1;transform:none;transition-delay:.05s}
+.stagger-children.visible > *:nth-child(2){opacity:1;transform:none;transition-delay:.13s}
+.stagger-children.visible > *:nth-child(3){opacity:1;transform:none;transition-delay:.21s}
+.stagger-children.visible > *:nth-child(4){opacity:1;transform:none;transition-delay:.29s}
+.stagger-children.visible > *:nth-child(5){opacity:1;transform:none;transition-delay:.37s}
+.stagger-children.visible > *:nth-child(6){opacity:1;transform:none;transition-delay:.45s}
+
+/* ── Wave divider ── */
+.wave-div{display:block;width:100%;overflow:hidden;line-height:0;margin-top:-2px;position:relative;z-index:3}
+.wave-div svg{display:block;width:100%}
+
+/* ── Page layout ── */
+.page-layout{position:relative;z-index:1;min-height:100vh}
+.page-main{position:relative;z-index:1;min-height:60vh;padding:0}
+.page-main-inner{max-width:1120px;margin:0 auto}
+
+@media(max-width:960px){.page-main{padding:0}}
+
+/* ── Global Gilroy Light enforcement ── */
+p, span, div, li, td, th, label, input, textarea, select, button {
+  font-family: var(--sans);
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+/* Keep nav/footer Gilroy at their set weight */
+.logo-nav, .site-footer { font-family: var(--nav-sans); }
+
+
+
+/* ── Backward-compat aliases for original page CSS files ── */
+:root {
+  /* Container aliases */
+  --container:      1200px;
+  --container-wide: 1320px;
+  --col-gap:        24px;
+  --gutter:         clamp(20px, 5vw, 80px);
+
+  /* Radius aliases (original names → new tokens) */
+  --radius-s:  6px;
+  --radius-m:  14px;
+  --radius-l:  22px;
+  --radius-xl: 100px;
+
+  /* Typography aliases */
+  --text-label:    13px;
+  --text-body:     18px;
+  --text-body-s:   15px;
+  --text-h2:       clamp(28px, 3.2vw, 46px);
+  --letter-label:  4px;
+
+  /* Spacing aliases */
+  --spacing-1: clamp(12px, 1.5vw, 20px);
+  --spacing-2: clamp(32px, 4vw, 56px);
+  --spacing-3: clamp(72px, 8vw, 120px);
+  --c-border:  rgba(13, 27, 62, 0.08);
+}
+
+/* ── Home section separator — logo only ── */
+.home-section-sep {
+  height: 72px;
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-sep-logo {
+  position: relative;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  opacity: .4;
+  animation: sepLogo 3.5s ease-in-out infinite;
+}
+
+/* Centered logo */
+.home-sep-logo {
+  position: relative;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  animation: sepLogo 3.5s ease-in-out infinite;
+}
+
+/* Mobile adaptation — see mobile.css */

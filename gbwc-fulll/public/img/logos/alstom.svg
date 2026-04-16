@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="4" fill="#0077C8"/>
+  <text x="11" y="38" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="white">ALO</text>
+  <text x="54" y="35" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0077C8">Alstom</text>
+</svg>

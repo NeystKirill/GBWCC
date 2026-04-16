@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Security headers via meta (backup for servers without header control) -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+
+    <!-- DNS prefetch for API -->
+    <link rel="preconnect" href="https://api.gbwc.kz" />
+    <link rel="dns-prefetch" href="https://api.gbwc.kz" />
+
+    <!-- Preconnect R2 CDN -->
+    <link rel="preconnect" href="https://pub-xxxx.r2.dev" crossorigin />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>GBWC — Global Businesswomen Council</title>
+    <meta name="description" content="Международная диалоговая платформа GBWC" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

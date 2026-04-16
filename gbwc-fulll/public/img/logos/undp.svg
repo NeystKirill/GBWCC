@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="3" fill="#009FDA"/>
+  <circle cx="26" cy="30" r="11" fill="none" stroke="white" stroke-width="1.5"/>
+  <ellipse cx="26" cy="30" rx="5.5" ry="11" fill="none" stroke="white" stroke-width="1.2"/>
+  <line x1="15" y1="30" x2="37" y2="30" stroke="white" stroke-width="1.2"/>
+  <text x="54" y="28" font-family="Arial,sans-serif" font-size="18" font-weight="800" fill="#009FDA">UNDP</text>
+  <text x="54" y="43" font-family="Arial,sans-serif" font-size="7.5" fill="#555">United Nations</text>
+  <text x="54" y="52" font-family="Arial,sans-serif" font-size="7.5" fill="#555">Development Programme</text>
+</svg>

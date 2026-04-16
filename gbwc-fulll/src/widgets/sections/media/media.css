@@ -1,0 +1,293 @@
+.med-page { min-height: 100vh; background: #ffffff; }
+
+.med-hero {
+  background: linear-gradient(160deg, #1a3358 0%, #1e3a60 40%, #2a5080 70%, #2a3f72 100%);
+  padding: 88px 24px 88px; text-align: center; position: relative; overflow: hidden;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+}
+.med-hero::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 55% 65% at 80% 45%, rgba(184,145,74,.06) 0%, transparent 65%);
+  pointer-events: none;
+}
+.med-hero-inner { position: relative; z-index: 1; max-width: 620px; margin: 0 auto; }
+.med-eyebrow { display: inline-block; color: #b8914a; font-size: .68rem; font-weight: 700; letter-spacing: .26em; text-transform: uppercase; margin-bottom: 20px; }
+.med-hero-title { font-family: var(--serif); font-size: clamp(2.6rem,5vw,4.2rem); font-weight: 300; color: #fff; margin: 0 0 16px; line-height: 1.08; letter-spacing: -.02em; }
+.med-hero-sub { color: rgba(255,255,255,.48); font-size: .9rem; letter-spacing: .04em; margin: 0; }
+
+.med-section { padding: 64px 0 100px; }
+.med-inner { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+/* Filters */
+.med-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.med-filter-btn {
+  padding: 8px 20px;
+  border-radius: 40px;
+  border: 1px solid rgba(13,27,62,.15);
+  background: none;
+  font-size: .8rem;
+  font-weight: 500;
+  color: rgba(13,27,62,.6);
+  cursor: pointer;
+  transition: all .2s;
+  font-family: var(--sans);
+}
+.med-filter-btn:hover { border-color: rgba(184,145,74,.4); color: #b8914a; }
+.med-filter-btn.active {
+  background: #1a3358;
+  border-color: #1a3358;
+  color: #fff;
+}
+
+/* Grid — 3 columns */
+.med-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* ── Card ── */
+.med-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(13,27,62,.07);
+  background: #fff;
+  transition: transform .28s cubic-bezier(.22,1,.36,1), box-shadow .28s;
+}
+.med-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(13,27,62,.1);
+}
+
+/* Cover */
+.med-card-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #1a3358;
+}
+
+/* Real photo */
+.med-card-cover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform .5s cubic-bezier(.22,1,.36,1);
+}
+.med-card:hover .med-card-cover-img { transform: scale(1.04); }
+
+/* SVG placeholder */
+.med-card-cover-svg-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+}
+.med-card-cover-svg {
+  display: block;
+  width: 100%; height: 100%;
+  transition: transform .5s cubic-bezier(.22,1,.36,1);
+}
+.med-card:hover .med-card-cover-svg { transform: scale(1.03); }
+
+/* Bottom bar: source + date */
+.med-card-cover-bar {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 28px 14px 10px;
+  background: linear-gradient(to top, rgba(10,18,40,.75), transparent);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+  pointer-events: none;
+  z-index: 2;
+}
+.med-card-cover-source {
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.med-card-cover-date {
+  font-size: .62rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: rgba(255,255,255,.45);
+  white-space: nowrap;
+}
+
+/* Text body */
+.med-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px 20px 20px;
+  flex: 1;
+}
+
+/* Cover — large hero area */
+.med-card-cover {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* Grid texture overlay */
+.med-card-cover-grid {
+  position: absolute; inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 32px, rgba(255,255,255,.04) 32px, rgba(255,255,255,.04) 33px),
+    repeating-linear-gradient(90deg, transparent, transparent 32px, rgba(255,255,255,.04) 32px, rgba(255,255,255,.04) 33px);
+  pointer-events: none;
+}
+
+/* Huge source abbreviation watermark */
+.med-card-cover-abbr {
+  position: absolute;
+  right: -10px;
+  bottom: -20px;
+  font-size: 8rem;
+  font-weight: 700;
+  opacity: .12;
+  line-height: 1;
+  pointer-events: none;
+  letter-spacing: -.04em;
+  user-select: none;
+}
+
+/* Diagonal shimmer */
+.med-card-cover-bar {
+  position: absolute;
+  inset: 0;
+  opacity: .35;
+  pointer-events: none;
+}
+
+/* Top row: category badge + date */
+.med-card-cover-top {
+  position: absolute;
+  top: 16px; left: 16px; right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  z-index: 2;
+}
+.med-card-cover-cat-badge {
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.15);
+  padding: 3px 8px;
+  border-radius: 2px;
+  backdrop-filter: blur(8px);
+}
+.med-card-cover-date {
+  font-size: .65rem;
+  color: rgba(255,255,255,.4);
+  font-weight: 500;
+}
+
+/* Bottom row: source + arrow */
+.med-card-cover-bottom {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 40px 16px 14px;
+  background: linear-gradient(to top, rgba(0,0,0,.5), transparent);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 2;
+}
+.med-card-cover-source {
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.med-card-cover-arrow {
+  width: 28px; height: 28px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .75rem;
+  opacity: .7;
+  transition: opacity .2s, transform .2s;
+}
+.med-card:hover .med-card-cover-arrow {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+/* Text body below cover */
+.med-card-body {
+  padding: 20px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.med-card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a3358;
+  line-height: 1.55;
+  margin: 0;
+  flex: 1;
+}
+
+.med-card-read {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-top: auto;
+  transition: color .2s;
+}
+
+@media (max-width: 768px) {
+  .med-grid { grid-template-columns: 1fr; }
+  .med-card-cover { height: 160px; }
+}
+@media (max-width: 480px) {
+  .med-hero { padding: 88px 20px 60px; }
+  .med-inner { padding: 0 16px; }
+}
+
+/* ══ GEOMETRY SYSTEM OVERRIDES ══ */
+/* Media tiles — type D, fixed ratios */
+.med-tile--wide   { border-radius: var(--radius-m) !important; aspect-ratio: 16 / 10 !important; }
+.med-tile--std    { border-radius: var(--radius-m) !important; aspect-ratio: 4 / 3 !important; }
+.med-tile,
+.med-card         { border-radius: var(--radius-m) !important; }
+.med-filter-btn   { border-radius: var(--radius-xl) !important; }
+.med-cta          { border-radius: var(--radius-xl) !important; }
+.med-label        { font-size: var(--text-label) !important; letter-spacing: var(--letter-label) !important; color: #b8914a; }
+
+@media (max-width: 900px) {
+  .med-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 540px) {
+  .med-grid { grid-template-columns: 1fr; }
+}
