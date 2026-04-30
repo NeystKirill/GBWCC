@@ -1,0 +1,9 @@
+// AboutHero removed — About.jsx uses shared/layout/PageHero directly
+export { default as AboutMandate }     from './AboutMandate/AboutMandate'
+export { default as AboutDirections }  from './AboutDirections/AboutDirections'
+export { default as AboutTimeline }    from './AboutTimeline/AboutTimeline'
+export { default as AboutPrinciples }  from './AboutPrinciples/AboutPrinciples'
+export { default as AboutFounder }     from './AboutFounder/AboutFounder'
+export { default as AboutSecretariat } from './AboutSecretariat/AboutSecretariat'
+export { default as AboutMission }     from './AboutMission/AboutMission'
+export { default as AboutCTA }         from './AboutCTA/AboutCTA'

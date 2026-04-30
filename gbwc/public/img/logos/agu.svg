@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="4" fill="#1A3A6B"/>
+  <text x="14" y="36" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="white">АГУ</text>
+  <text x="54" y="25" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#1A3A6B">Академия</text>
+  <text x="54" y="36" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#1A3A6B">государственного</text>
+  <text x="54" y="47" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#1A3A6B">управления РК</text>
+</svg>

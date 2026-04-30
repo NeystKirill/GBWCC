@@ -1,0 +1,41 @@
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 13px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase;
+  cursor: pointer; border: none; text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.22,1,0.36,1);
+  white-space: nowrap;
+}
+/* Primary — gold pill */
+.btn--primary {
+  padding: 14px 36px; border-radius: 50px;
+  background: linear-gradient(135deg, #b8914a, #e8c96e, #b8914a);
+  background-size: 200% 100%; color: #06101f;
+  box-shadow: 0 6px 24px rgba(184,145,74,.25);
+}
+.btn--primary:hover { background-position: 100%; transform: translateY(-2px); box-shadow: 0 12px 36px rgba(184,145,74,.35); }
+/* Secondary — outline dark */
+.btn--secondary {
+  padding: 13px 32px; border-radius: 50px;
+  border: 1.5px solid rgba(13,27,62,.2); color: #0d1b3e; background: transparent;
+}
+.btn--secondary:hover { border-color: rgba(184,145,74,.5); background: rgba(184,145,74,.06); }
+/* Ghost — for dark backgrounds */
+.btn--ghost {
+  padding: 13px 32px; border-radius: 50px;
+  border: 1px solid rgba(255,255,255,.15); color: rgba(255,255,255,.7); background: transparent;
+}
+.btn--ghost:hover { border-color: rgba(184,145,74,.45); color: #e8c96e; background: rgba(184,145,74,.08); }
+/* Outline — sharp rectangle */
+.btn--outline {
+  padding: 13px 32px; border-radius: 3px;
+  border: 1.5px solid #0d1b3e; color: #0d1b3e; background: transparent;
+  position: relative; overflow: hidden;
+}
+.btn--outline::before {
+  content: ''; position: absolute; inset: 0;
+  background: #0d1b3e; transform: scaleX(0); transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.22,1,0.36,1);
+}
+.btn--outline:hover::before { transform: scaleX(1); }
+.btn--outline:hover { color: #ffffff; }
+.btn--outline > * { position: relative; z-index: 1; }

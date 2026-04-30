@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <circle cx="24" cy="30" r="16" fill="#00843D"/>
+  <path d="M14 30 Q24 18 34 30 Q24 42 14 30Z" fill="white" opacity="0.3"/>
+  <text x="48" y="26" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#00843D">GGGI</text>
+  <text x="48" y="39" font-family="Arial,sans-serif" font-size="7.5" fill="#555">Global Green Growth</text>
+  <text x="48" y="50" font-family="Arial,sans-serif" font-size="7.5" fill="#555">Institute</text>
+</svg>

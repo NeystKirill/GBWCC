@@ -1,0 +1,142 @@
+/* ══════════════════════════════════════════════════
+   HOME KEY PEOPLE — Portrait grid of all participants
+   ══════════════════════════════════════════════════ */
+.hkp {
+  background: #ffffff;
+  padding: 96px 0 80px;
+}
+
+.hkp-inner {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 60px);
+}
+
+/* Header */
+.hkp-head { margin-bottom: 48px; }
+.hkp-eyebrow {
+  display: flex; align-items: center; gap: 12px;
+  font-size: .65rem; font-weight: 700; letter-spacing: .28em;
+  text-transform: uppercase; color: #b8914a; margin-bottom: 16px;
+}
+.hkp-eye-line {
+  display: block; width: 28px; height: 1px;
+  background: linear-gradient(90deg, #b8914a, rgba(184,145,74,.4));
+}
+.hkp-title {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 200; color: #0d1b3e;
+  line-height: 1.1; letter-spacing: -.02em; margin: 0 0 16px;
+}
+.hkp-sub {
+  font-size: .9rem; color: rgba(13,27,62,.5);
+  line-height: 1.75; max-width: 620px; margin: 0;
+}
+
+/* Grid — auto-fill portrait cards */
+.hkp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px 16px;
+}
+
+/* Portrait card */
+.hkp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Photo frame */
+.hkp-photo {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 4px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #e8e0d4, #d4ccc0);
+}
+.hkp-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center top;
+  display: block;
+  transition: transform .45s cubic-bezier(.22,1,.36,1);
+}
+.hkp-card:hover .hkp-photo img { transform: scale(1.04); }
+.hkp-initials {
+  width: 100%; height: 100%;
+  align-items: center; justify-content: center;
+  font-size: 2rem; font-weight: 200;
+  color: rgba(184,145,74,.45);
+}
+.hkp-overlay {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 40%;
+  background: linear-gradient(to top, rgba(13,27,62,.3), transparent);
+  pointer-events: none;
+}
+
+/* Corner ornaments */
+.hkp-photo::before {
+  content: ''; position: absolute; z-index: 2;
+  top: 8px; left: 8px; width: 16px; height: 16px;
+  border-top: 1.5px solid rgba(184,145,74,.4);
+  border-left: 1.5px solid rgba(184,145,74,.4);
+  pointer-events: none;
+}
+.hkp-photo::after {
+  content: ''; position: absolute; z-index: 2;
+  bottom: 8px; right: 8px; width: 16px; height: 16px;
+  border-bottom: 1.5px solid rgba(184,145,74,.4);
+  border-right: 1.5px solid rgba(184,145,74,.4);
+  pointer-events: none;
+}
+
+/* Session badges */
+.hkp-badges {
+  position: absolute;
+  top: 8px; right: 8px;
+  z-index: 3;
+  display: flex; gap: 3px;
+}
+.hkp-badge {
+  display: inline-block;
+  padding: 2px 5px;
+  background: rgba(13,27,62,.65);
+  border: 1px solid rgba(184,145,74,.35);
+  border-radius: 2px;
+  font-size: .55rem; font-weight: 700;
+  color: #b8914a; letter-spacing: .06em;
+  backdrop-filter: blur(4px);
+}
+
+/* Text info */
+.hkp-info {
+  display: flex; flex-direction: column; gap: 3px;
+}
+.hkp-name {
+  font-size: .88rem; font-weight: 600;
+  color: #0d1b3e; line-height: 1.3;
+}
+.hkp-role {
+  font-size: .72rem; font-weight: 500;
+  line-height: 1.4;
+}
+.hkp-org {
+  font-size: .65rem; color: rgba(13,27,62,.38);
+  font-weight: 400; letter-spacing: .02em;
+}
+
+/* Footer CTA */
+.hkp-more {
+  display: flex; justify-content: center;
+  margin-top: 48px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hkp-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px 12px; }
+}
+@media (max-width: 540px) {
+  .hkp-grid { grid-template-columns: repeat(3, 1fr); gap: 12px 8px; }
+  .hkp-name { font-size: .78rem; }
+  .hkp-role { font-size: .65rem; }
+}

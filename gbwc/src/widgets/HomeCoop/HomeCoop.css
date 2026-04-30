@@ -1,0 +1,30 @@
+.hc { background: #ffffff; padding: var(--sp-section) var(--container-pad); position: relative; overflow: hidden; }
+.hc-shader,.hc-particles,.hc-grid { position:absolute; inset:0; pointer-events:none; }
+.hc-shader { z-index:0; } .hc-particles { z-index:1; opacity:.6; }
+.hc-grid { z-index:2; background-image:linear-gradient(rgba(255,255,255,.016) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.016) 1px,transparent 1px); background-size:64px 64px; }
+.hc-inner { position:relative; z-index:3; max-width:800px; margin:0 auto; text-align:center; display:flex; flex-direction:column; align-items:center; gap:32px; }
+
+.hc-label-row { display:flex; align-items:center; gap:16px; }
+.hc-label-line { display:inline-block; width:40px; height:1px; background:linear-gradient(90deg,transparent,var(--gold)); }
+.hc-label-line--rev { background:linear-gradient(270deg,transparent,var(--gold)); }
+.hc-eyebrow { font-size:11px; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); }
+
+.hc-title { font-size:clamp(1.8rem,4vw,3.5rem); font-weight:300; color:#ffffff; line-height:1.15; letter-spacing:-.03em; }
+.hc-text  { font-size:.9rem; line-height:1.85; color:rgba(255,255,255,.6); max-width:560px; }
+
+.hc-tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+.hc-tag  { padding:8px 18px; border-radius:var(--r-pill); border:1px solid rgba(255,255,255,.08); font-size:.8rem; color:rgba(255,255,255,.4); transition:all .3s cubic-bezier(.22,1,.36,1); cursor:default; }
+.hc-tag:hover { border-color:rgba(184,145,74,.4); color:var(--gold2); background:rgba(184,145,74,.07); transform:translateY(-2px); }
+
+.hc-btns { display:flex; gap:14px; flex-wrap:wrap; justify-content:center; }
+@media (max-width:900px) { .hc-btns { flex-direction:column; align-items:center; width:100%; } .hc-btns .lyt-btn { width:100%; justify-content:center; } }
+
+.hc-card {
+  max-width: var(--container-w);
+  margin: 0 auto;
+  background: linear-gradient(160deg, #071120 0%, #030811 100%) !important;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  padding: clamp(56px,6vw,88px) clamp(24px,5vw,80px);
+}

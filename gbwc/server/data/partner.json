@@ -1,0 +1,896 @@
+[
+  {
+    "_id": "801b5dcd-f8ca-4e06-ac82-f8b842d3095e",
+    "id": "801b5dcd-f8ca-4e06-ac82-f8b842d3095e",
+    "name": "EBRD",
+    "logo": "/img/logos/ebrd.png",
+    "url": "https://www.ebrd.com",
+    "full_name": {
+      "ru": "Европейский банк реконструкции и развития",
+      "en": "European Bank for Reconstruction and Development",
+      "kk": "Еуропалық қайта жаңарту және даму банкі"
+    },
+    "rep": {
+      "ru": "Одиль Рено-Бассо, Президент",
+      "en": "Odile Renaud-Basso, President",
+      "kk": "Одиль Рено-Бассо, Президент"
+    },
+    "photo": "/img/partners/Одиль Рено-Бассо.jpg",
+    "sessions": [
+      1,
+      2,
+      3
+    ],
+    "category": "international",
+    "sort_order": 1,
+    "created_at": "2026-04-23T18:12:22.596Z",
+    "updated_at": "2026-04-28T05:24:27.531Z",
+    "published": true
+  },
+  {
+    "_id": "87010991-6340-421e-bea0-4c9d93319c90",
+    "id": "87010991-6340-421e-bea0-4c9d93319c90",
+    "name": "World Bank",
+    "logo": "/img/logos/worldbank.png",
+    "url": "https://www.worldbank.org",
+    "full_name": {
+      "ru": "Всемирный Банк",
+      "en": "World Bank",
+      "kk": "Дүниежүзілік банк"
+    },
+    "rep": {
+      "ru": "Антонелла Бассани, Вице-президент",
+      "en": "Antonella Bassani, VP Europe & CA",
+      "kk": "Антонелла Бассани, VP"
+    },
+    "photo": "/img/partners/Антонелла Бассани.jpeg",
+    "sessions": [
+      1
+    ],
+    "category": "international",
+    "sort_order": 2,
+    "created_at": "2026-04-23T18:12:22.598Z",
+    "updated_at": "2026-04-28T05:24:27.534Z",
+    "published": true
+  },
+  {
+    "_id": "928d9753-0f73-4b4c-bf7e-3b4a86631101",
+    "id": "928d9753-0f73-4b4c-bf7e-3b4a86631101",
+    "name": "ADB",
+    "logo": "/img/logos/adb.png",
+    "url": "https://www.adb.org",
+    "full_name": {
+      "ru": "Азиатский банк развития",
+      "en": "Asian Development Bank",
+      "kk": "Азия даму банкі"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 4,
+    "created_at": "2026-04-23T18:12:22.602Z",
+    "updated_at": "2026-04-28T05:24:27.543Z",
+    "published": true,
+    "logo_url": "/img/logos/adb.png"
+  },
+  {
+    "_id": "d1ac7708-af88-4973-a9fc-19aa6eecd711",
+    "id": "d1ac7708-af88-4973-a9fc-19aa6eecd711",
+    "name": "IFC",
+    "logo": "/img/logos/ifc.svg",
+    "url": "https://www.ifc.org",
+    "full_name": {
+      "ru": "Международная финансовая корпорация",
+      "en": "International Finance Corporation",
+      "kk": "Халықаралық қаржы корпорациясы"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 5,
+    "created_at": "2026-04-23T18:12:22.603Z",
+    "updated_at": "2026-04-28T05:24:27.546Z",
+    "published": true
+  },
+  {
+    "_id": "daa8366c-9322-41f2-a1b8-4ef91c053822",
+    "id": "daa8366c-9322-41f2-a1b8-4ef91c053822",
+    "name": "IsDB",
+    "logo": "/img/logos/isdb.png",
+    "url": "https://www.isdb.org",
+    "full_name": {
+      "ru": "Исламский банк развития",
+      "en": "Islamic Development Bank",
+      "kk": "Ислам даму банкі"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 6,
+    "created_at": "2026-04-23T18:12:22.604Z",
+    "updated_at": "2026-04-28T05:24:27.550Z",
+    "published": true,
+    "logo_url": "/img/logos/isdb.png"
+  },
+  {
+    "_id": "ce1e53a5-b649-4b24-8243-11e826df272d",
+    "id": "ce1e53a5-b649-4b24-8243-11e826df272d",
+    "name": "GGGI",
+    "logo": "/img/logos/gggi.png",
+    "url": "https://gggi.org",
+    "full_name": {
+      "ru": "Глобальный институт зелёного роста",
+      "en": "Global Green Growth Institute",
+      "kk": "Жаһандық жасыл өсу институты"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 7,
+    "created_at": "2026-04-23T18:12:22.606Z",
+    "updated_at": "2026-04-28T05:24:27.553Z",
+    "published": true
+  },
+  {
+    "_id": "5752c017-4629-4b35-93c0-7114f42023b3",
+    "id": "5752c017-4629-4b35-93c0-7114f42023b3",
+    "name": "UN Women",
+    "logo": "/img/logos/unwomen.png",
+    "url": "https://www.unwomen.org",
+    "full_name": {
+      "ru": "ООН-Женщины",
+      "en": "UN Women",
+      "kk": "БҰҰ-Əйелдер"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 8,
+    "created_at": "2026-04-23T18:12:22.607Z",
+    "updated_at": "2026-04-28T05:24:27.557Z",
+    "published": true
+  },
+  {
+    "_id": "20c48ffa-b31c-4f9c-ba68-1e192448d1dd",
+    "id": "20c48ffa-b31c-4f9c-ba68-1e192448d1dd",
+    "name": "OSCE",
+    "logo": "/img/logos/osce.png",
+    "url": "https://www.osce.org",
+    "full_name": {
+      "ru": "Организация по безопасности и сотрудничеству в Европе",
+      "en": "Organisation for Security and Cooperation in Europe",
+      "kk": "Еуропадағы қауіпсіздік және ынтымақтастық ұйымы"
+    },
+    "rep": {
+      "ru": "Маргарета Седерфельт, Председатель ПА ОБСЕ",
+      "en": "Margareta Cederfelt, President PA OSCE",
+      "kk": "Маргарета Седерфельт, ЕҚЫҰ ПА Президенті"
+    },
+    "photo": null,
+    "sessions": [
+      1
+    ],
+    "category": "international",
+    "sort_order": 9,
+    "created_at": "2026-04-23T18:12:22.609Z",
+    "updated_at": "2026-04-28T05:24:27.560Z",
+    "published": true
+  },
+  {
+    "_id": "319f9835-b782-487c-8bb4-29973475a639",
+    "id": "319f9835-b782-487c-8bb4-29973475a639",
+    "name": "AIIB",
+    "logo": "/img/logos/aiib.svg",
+    "url": "https://www.aiib.org",
+    "full_name": {
+      "ru": "Азиатский банк инфраструктурных инвестиций",
+      "en": "Asian Infrastructure Investment Bank",
+      "kk": "Азия инфрақұрылымдық инвестициялар банкі"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 10,
+    "created_at": "2026-04-23T18:12:22.610Z",
+    "updated_at": "2026-04-28T05:24:27.563Z",
+    "published": true
+  },
+  {
+    "_id": "9f38fef4-cd44-4f45-8f83-730b649518d7",
+    "id": "9f38fef4-cd44-4f45-8f83-730b649518d7",
+    "name": "ILO",
+    "logo": "/img/logos/ilo.png",
+    "url": "https://www.ilo.org",
+    "full_name": {
+      "ru": "Международная организация труда",
+      "en": "International Labour Organization",
+      "kk": "Халықаралық еңбек ұйымы"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "international",
+    "sort_order": 11,
+    "created_at": "2026-04-23T18:12:22.612Z",
+    "updated_at": "2026-04-28T05:24:27.565Z",
+    "published": true
+  },
+  {
+    "_id": "7358d5a2-fc6f-4a94-a1dc-baa0ab9651bf",
+    "id": "7358d5a2-fc6f-4a94-a1dc-baa0ab9651bf",
+    "name": "Baker McKenzie",
+    "logo": "/img/logos/bakermckenzie.svg",
+    "url": "https://www.bakermckenzie.com",
+    "full_name": {
+      "ru": "Baker McKenzie International",
+      "en": "Baker McKenzie International",
+      "kk": "Baker McKenzie International"
+    },
+    "rep": {
+      "ru": "Кирсти Уилсон, Зам. председателя",
+      "en": "Kirsty Wilson, Deputy Chair",
+      "kk": "Кирсти Уилсон, вице-төраға"
+    },
+    "photo": "/img/partners/Кирсти Уилсон.jpg",
+    "sessions": [
+      1,
+      3
+    ],
+    "category": "corporate",
+    "sort_order": 12,
+    "created_at": "2026-04-23T18:12:22.614Z",
+    "updated_at": "2026-04-28T05:24:27.567Z",
+    "published": true
+  },
+  {
+    "_id": "04df70b8-b3ce-404d-ad45-6e79599d11c3",
+    "id": "04df70b8-b3ce-404d-ad45-6e79599d11c3",
+    "name": "Citi",
+    "logo": "/img/logos/citi.svg",
+    "url": "https://www.citi.com",
+    "full_name": {
+      "ru": "Citi (Citigroup)",
+      "en": "Citi (Citigroup)",
+      "kk": "Citi (Citigroup)"
+    },
+    "rep": {
+      "ru": "Джули Монако, Управляющий директор",
+      "en": "Julie Monaco, Managing Director",
+      "kk": "Джули Монако, MD"
+    },
+    "photo": null,
+    "sessions": [
+      1
+    ],
+    "category": "corporate",
+    "sort_order": 13,
+    "created_at": "2026-04-23T18:12:22.615Z",
+    "updated_at": "2026-04-28T05:24:27.572Z",
+    "published": true
+  },
+  {
+    "_id": "4128b45d-055b-4a4b-8bb1-911068ba578d",
+    "id": "4128b45d-055b-4a4b-8bb1-911068ba578d",
+    "name": "VISA",
+    "logo": "/img/logos/visa.svg",
+    "url": "https://www.visa.com",
+    "full_name": {
+      "ru": "Visa Inc.",
+      "en": "Visa Inc.",
+      "kk": "Visa Inc."
+    },
+    "rep": {
+      "ru": "Кристина Дорос, Вице-президент ЦА",
+      "en": "Kristina Doros, VP Central Asia",
+      "kk": "Кристина Дорос, VP ОА"
+    },
+    "photo": null,
+    "sessions": [
+      1
+    ],
+    "category": "corporate",
+    "sort_order": 14,
+    "created_at": "2026-04-23T18:12:22.616Z",
+    "updated_at": "2026-04-28T05:24:27.575Z",
+    "published": true
+  },
+  {
+    "_id": "38be2977-368d-47af-b6b2-075463e36471",
+    "id": "38be2977-368d-47af-b6b2-075463e36471",
+    "name": "Microsoft",
+    "logo": "/img/logos/microsoft.svg",
+    "url": "https://www.microsoft.com",
+    "full_name": {
+      "ru": "Microsoft Corporation",
+      "en": "Microsoft Corporation",
+      "kk": "Microsoft Corporation"
+    },
+    "rep": {
+      "ru": "Мишель Симмонс, Президент Microsoft ЦЕ и ЦА",
+      "en": "Michel Simmons, President Microsoft CE & CA",
+      "kk": "Мишель Симмонс, Microsoft президенті"
+    },
+    "photo": "/img/partners/Мишель Симмонс.jpg",
+    "sessions": [
+      2
+    ],
+    "category": "corporate",
+    "sort_order": 15,
+    "created_at": "2026-04-23T18:12:22.618Z",
+    "updated_at": "2026-04-28T05:24:27.578Z",
+    "published": true
+  },
+  {
+    "_id": "4e5e0abd-8fa7-418a-a48f-8c38a1d2eba2",
+    "id": "4e5e0abd-8fa7-418a-a48f-8c38a1d2eba2",
+    "name": "Air Liquide",
+    "logo": "/img/logos/airliquide.png",
+    "url": "https://www.airliquide.com",
+    "full_name": {
+      "ru": "Air Liquide S.A.",
+      "en": "Air Liquide S.A.",
+      "kk": "Air Liquide S.A."
+    },
+    "rep": {
+      "ru": "Эмили Муран-Ренуар, Вице-президент",
+      "en": "Émilie Mouran-Renouard, Vice President",
+      "kk": "Эмили Муран-Ренуар, VP"
+    },
+    "photo": "/img/partners/Эмили Муран-Ренуар.png",
+    "sessions": [
+      3
+    ],
+    "category": "corporate",
+    "sort_order": 16,
+    "created_at": "2026-04-23T18:12:22.620Z",
+    "updated_at": "2026-04-28T05:24:27.581Z",
+    "published": true
+  },
+  {
+    "_id": "bb8bdbb7-f5f4-49a8-86c2-eed964954aff",
+    "id": "bb8bdbb7-f5f4-49a8-86c2-eed964954aff",
+    "name": "VEON",
+    "logo": "/img/logos/veon.webp",
+    "url": "https://www.veon.com",
+    "full_name": {
+      "ru": "VEON Group",
+      "en": "VEON Group",
+      "kk": "VEON Group"
+    },
+    "rep": {
+      "ru": "Марине Бабаян, Вице-президент",
+      "en": "Marine Babayan, VP",
+      "kk": "Марине Бабаян, VP"
+    },
+    "photo": "/img/partners/Марине Бабаян.jpg",
+    "sessions": [
+      2,
+      3
+    ],
+    "category": "corporate",
+    "sort_order": 17,
+    "created_at": "2026-04-23T18:12:22.622Z",
+    "updated_at": "2026-04-28T05:24:27.583Z",
+    "published": true
+  },
+  {
+    "_id": "dfacf404-4584-4326-9ad4-c3a9973b7295",
+    "id": "dfacf404-4584-4326-9ad4-c3a9973b7295",
+    "name": "Baker Hughes",
+    "logo": "/img/logos/bakerhughes.png",
+    "url": "https://www.bakerhughes.com",
+    "full_name": {
+      "ru": "Baker Hughes Company",
+      "en": "Baker Hughes Company",
+      "kk": "Baker Hughes Company"
+    },
+    "rep": {
+      "ru": "Мария Клаудия Боррас, Главный управляющий",
+      "en": "Maria Claudia Borras, CEO",
+      "kk": "Мария Клаудия Боррас, CEO"
+    },
+    "photo": null,
+    "sessions": [
+      2
+    ],
+    "category": "corporate",
+    "sort_order": 18,
+    "created_at": "2026-04-23T18:12:22.623Z",
+    "updated_at": "2026-04-28T05:24:27.584Z",
+    "published": true
+  },
+  {
+    "_id": "fc0498f8-33f1-4f33-807a-e7bb0643d92d",
+    "id": "fc0498f8-33f1-4f33-807a-e7bb0643d92d",
+    "name": "Polpharma",
+    "logo": "/img/logos/polpharma.webp",
+    "url": "https://www.polpharma.com",
+    "full_name": {
+      "ru": "Polpharma Group",
+      "en": "Polpharma Group",
+      "kk": "Polpharma Group"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [
+      2
+    ],
+    "category": "corporate",
+    "sort_order": 19,
+    "created_at": "2026-04-23T18:12:22.625Z",
+    "updated_at": "2026-04-28T05:24:27.586Z",
+    "published": true
+  },
+  {
+    "_id": "fce2b2b4-f66d-440d-9fec-659153af6a49",
+    "id": "fce2b2b4-f66d-440d-9fec-659153af6a49",
+    "name": "Chevron",
+    "logo": "/img/logos/chevron.png",
+    "url": "https://www.chevron.com",
+    "full_name": {
+      "ru": "Chevron Corporation",
+      "en": "Chevron Corporation",
+      "kk": "Chevron Corporation"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "corporate",
+    "sort_order": 20,
+    "created_at": "2026-04-23T18:12:22.627Z",
+    "updated_at": "2026-04-28T05:24:27.588Z",
+    "published": true
+  },
+  {
+    "_id": "a7988ce5-e7be-4757-90c2-a5a3ec4f307c",
+    "id": "a7988ce5-e7be-4757-90c2-a5a3ec4f307c",
+    "name": "Shell",
+    "logo": "/img/logos/shell.png",
+    "url": "https://www.shell.com",
+    "full_name": {
+      "ru": "Shell plc",
+      "en": "Shell plc",
+      "kk": "Shell plc"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "corporate",
+    "sort_order": 21,
+    "created_at": "2026-04-23T18:12:22.628Z",
+    "updated_at": "2026-04-28T05:24:27.591Z",
+    "published": true
+  },
+  {
+    "_id": "323843e6-c93d-4406-a65d-068d7d174630",
+    "id": "323843e6-c93d-4406-a65d-068d7d174630",
+    "name": "ExxonMobil",
+    "logo": "/img/logos/exxonmobil.png",
+    "url": "https://www.exxonmobil.com",
+    "full_name": {
+      "ru": "ExxonMobil Corporation",
+      "en": "ExxonMobil Corporation",
+      "kk": "ExxonMobil Corporation"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "corporate",
+    "sort_order": 22,
+    "created_at": "2026-04-23T18:12:22.630Z",
+    "updated_at": "2026-04-28T05:24:27.595Z",
+    "published": true
+  },
+  {
+    "_id": "c00e3e1c-1266-48e4-b72d-64c93b4fb5ea",
+    "id": "c00e3e1c-1266-48e4-b72d-64c93b4fb5ea",
+    "name": "Alstom",
+    "logo": "/img/logos/alstom.png",
+    "url": "https://www.alstomgroup.com",
+    "full_name": {
+      "ru": "Alstom S.A.",
+      "en": "Alstom S.A.",
+      "kk": "Alstom S.A."
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "corporate",
+    "sort_order": 23,
+    "created_at": "2026-04-23T18:12:22.631Z",
+    "updated_at": "2026-04-28T05:24:27.597Z",
+    "published": true
+  },
+  {
+    "_id": "d0c109b7-ad46-4571-aeb6-a6cb654d90ee",
+    "id": "d0c109b7-ad46-4571-aeb6-a6cb654d90ee",
+    "name": "Нацкомиссия",
+    "logo": "/img/logos/nackomi.webp",
+    "url": "https://www.akorda.kz",
+    "full_name": {
+      "ru": "Национальная комиссия по делам женщин и семейно-демографической политике при Президенте РК",
+      "en": "National Commission on Women's Affairs under the President of Kazakhstan",
+      "kk": "ҚР Президентінің жанындағы Ұлттық комиссия"
+    },
+    "rep": {
+      "ru": "Аида Балаева, Председатель",
+      "en": "Aida Balayeva, Chair",
+      "kk": "Аида Балаева, Төрайым"
+    },
+    "photo": "/img/partners/Аида Балаева.webp",
+    "sessions": [
+      1
+    ],
+    "category": "national",
+    "sort_order": 24,
+    "created_at": "2026-04-23T18:12:22.633Z",
+    "updated_at": "2026-04-28T05:24:27.598Z",
+    "published": true
+  },
+  {
+    "_id": "52c205e2-9dab-4407-9b8e-f4e1252f34e3",
+    "id": "52c205e2-9dab-4407-9b8e-f4e1252f34e3",
+    "name": "Конституционный суд РК",
+    "logo": "/img/logos/konstsud.png",
+    "url": "https://ks.gov.kz",
+    "full_name": {
+      "ru": "Конституционный Суд Республики Казахстан",
+      "en": "Constitutional Court of Kazakhstan",
+      "kk": "ҚР Конституциялық Соты"
+    },
+    "rep": {
+      "ru": "Эльвира Азимова, Председатель",
+      "en": "Elvira Azimova, Chair",
+      "kk": "Эльвира Азимова, Төрайым"
+    },
+    "photo": "/img/partners/Эльвира Азимова.jpg",
+    "sessions": [
+      1,
+      2
+    ],
+    "category": "national",
+    "sort_order": 25,
+    "created_at": "2026-04-23T18:12:22.635Z",
+    "updated_at": "2026-04-28T05:24:27.600Z",
+    "published": true
+  },
+  {
+    "_id": "a1b8c1e2-371a-4c14-a568-95504c1f4889",
+    "id": "a1b8c1e2-371a-4c14-a568-95504c1f4889",
+    "name": "Министерство труда РК",
+    "logo": "/img/logos/qazaqstan_emblem.png",
+    "url": "https://www.enbek.gov.kz",
+    "full_name": {
+      "ru": "Министерство труда и социальной защиты населения РК",
+      "en": "Ministry of Labour and Social Protection of Kazakhstan",
+      "kk": "ҚР Еңбек министрлігі"
+    },
+    "rep": {
+      "ru": "Тамара Дуйсенова, Министр",
+      "en": "Tamara Duissenova, Minister",
+      "kk": "Тамара Дуйсенова, министр"
+    },
+    "photo": "/img/partners/Тамара_Дуйсенова.jpeg",
+    "sessions": [
+      1,
+      2
+    ],
+    "category": "national",
+    "sort_order": 26,
+    "created_at": "2026-04-23T18:12:22.636Z",
+    "updated_at": "2026-04-28T05:24:27.603Z",
+    "published": true
+  },
+  {
+    "_id": "852491e8-7375-4f15-b9f6-e262bc103709",
+    "id": "852491e8-7375-4f15-b9f6-e262bc103709",
+    "name": "Министерство здравоохранения РК",
+    "logo": "/img/logos/minzdrav.png",
+    "url": "https://www.gov.kz/memleket/entities/dsm",
+    "full_name": {
+      "ru": "Министерство здравоохранения РК",
+      "en": "Ministry of Healthcare of Kazakhstan",
+      "kk": "ҚР Денсаулық сақтау министрлігі"
+    },
+    "rep": {
+      "ru": "Акмарал Альназарова, Министр",
+      "en": "Akmaral Alnazarova, Minister",
+      "kk": "Акмарал Альназарова, министр"
+    },
+    "photo": null,
+    "sessions": [
+      3
+    ],
+    "category": "national",
+    "sort_order": 27,
+    "created_at": "2026-04-23T18:12:22.639Z",
+    "updated_at": "2026-04-28T05:24:27.606Z",
+    "published": true
+  },
+  {
+    "_id": "02b7863f-a4a5-4d62-bd87-0928e8c329f8",
+    "id": "02b7863f-a4a5-4d62-bd87-0928e8c329f8",
+    "name": "Министерство культуры РК",
+    "logo": "/img/logos/qazaqstan_emblem.png",
+    "url": "https://www.gov.kz/memleket/entities/mki",
+    "full_name": {
+      "ru": "Министерство культуры и информации РК",
+      "en": "Ministry of Culture and Information of Kazakhstan",
+      "kk": "ҚР Мәдениет министрлігі"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "national",
+    "sort_order": 28,
+    "created_at": "2026-04-23T18:12:22.642Z",
+    "updated_at": "2026-04-28T05:24:27.609Z",
+    "published": true
+  },
+  {
+    "_id": "8095b372-a317-4be8-90e5-0faaa38612d6",
+    "id": "8095b372-a317-4be8-90e5-0faaa38612d6",
+    "name": "Мин. цифрового развития РК",
+    "logo": "/img/logos/mindigital.png",
+    "url": "https://www.gov.kz/memleket/entities/mdai",
+    "full_name": {
+      "ru": "Министерство цифрового развития, инноваций и аэрокосмической промышленности РК",
+      "en": "Ministry of Digital Development of Kazakhstan",
+      "kk": "ҚР Цифрлық даму министрлігі"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [
+      3
+    ],
+    "category": "national",
+    "sort_order": 29,
+    "created_at": "2026-04-23T18:12:22.643Z",
+    "updated_at": "2026-04-28T05:24:27.612Z",
+    "published": true
+  },
+  {
+    "_id": "78696737-be3f-4586-a31f-e320968659ec",
+    "id": "78696737-be3f-4586-a31f-e320968659ec",
+    "name": "Министерство науки РК",
+    "logo": "/img/logos/minnauka.png",
+    "url": "https://www.gov.kz/memleket/entities/mns",
+    "full_name": {
+      "ru": "Министерство науки и высшего образования РК",
+      "en": "Ministry of Science and Higher Education of Kazakhstan",
+      "kk": "ҚР Ғылым министрлігі"
+    },
+    "rep": {
+      "ru": " Нурбек Саясат",
+      "en": "",
+      "kk": ""
+    },
+    "photo": null,
+    "sessions": [
+      3
+    ],
+    "category": "national",
+    "sort_order": 30,
+    "created_at": "2026-04-23T18:12:22.645Z",
+    "updated_at": "2026-04-28T06:07:03.078Z",
+    "published": true,
+    "logo_url": "/img/logos/minnauka.png"
+  },
+  {
+    "_id": "96b47b2e-76b4-48d5-8788-e2f74a7e46cf",
+    "id": "96b47b2e-76b4-48d5-8788-e2f74a7e46cf",
+    "name": "АРРФР",
+    "logo": "/img/logos/arrfr.svg",
+    "url": "https://www.afsa.kz",
+    "full_name": {
+      "ru": "Агентство РК по регулированию и развитию финансового рынка",
+      "en": "Agency for Regulation and Development of the Financial Market",
+      "kk": "ҚР АРРФР"
+    },
+    "rep": {
+      "ru": "Мадина Абылкасымова, Председатель",
+      "en": "Madina Abylkassymova, Chair",
+      "kk": "Мадина Абылкасымова, Төрайым"
+    },
+    "photo": null,
+    "sessions": [
+      1,
+      3
+    ],
+    "category": "national",
+    "sort_order": 31,
+    "created_at": "2026-04-23T18:12:22.647Z",
+    "updated_at": "2026-04-28T05:24:27.617Z",
+    "published": true
+  },
+  {
+    "_id": "7e524cde-cd98-48a1-b734-bd7d0e96cff2",
+    "id": "7e524cde-cd98-48a1-b734-bd7d0e96cff2",
+    "name": "Halyk Bank",
+    "logo": "/img/logos/halykbank.png",
+    "url": "https://www.halykbank.kz",
+    "full_name": {
+      "ru": "АО «Народный Банк Казахстана»",
+      "en": "Halyk Bank Kazakhstan",
+      "kk": "Халық Банкі"
+    },
+    "rep": {
+      "ru": "Умут Шаяхметова, Председатель Правления",
+      "en": "Umut Shayakhmetova, CEO",
+      "kk": "Үмбетова Шаяхметова, Басқарма Төрайымы"
+    },
+    "photo": null,
+    "sessions": [
+      1
+    ],
+    "category": "national",
+    "sort_order": 32,
+    "created_at": "2026-04-23T18:12:22.648Z",
+    "updated_at": "2026-04-28T05:24:27.620Z",
+    "published": true
+  },
+  {
+    "_id": "419beae3-f40e-44c2-9d24-cbe48356d12d",
+    "id": "419beae3-f40e-44c2-9d24-cbe48356d12d",
+    "name": "Фонд «Даму»",
+    "logo": "/img/logos/fonddamu.svg",
+    "url": "https://damu.kz",
+    "full_name": {
+      "ru": "АО «Фонд развития предпринимательства «Даму»",
+      "en": "Damu Entrepreneurship Development Fund",
+      "kk": "«Даму» кәсіпкерлікті дамыту қоры"
+    },
+    "rep": {
+      "ru": "Гаухар Бурибаева, Председатель Правления",
+      "en": "Gauhar Buribayeva, CEO",
+      "kk": "Гаухар Бурибаева, Басқарма Төрайымы"
+    },
+    "photo": null,
+    "sessions": [
+      1,
+      2
+    ],
+    "category": "national",
+    "sort_order": 33,
+    "created_at": "2026-04-23T18:12:22.650Z",
+    "updated_at": "2026-04-28T05:24:27.628Z",
+    "published": true
+  },
+  {
+    "_id": "f0196bec-c6da-4a29-ac44-c8273cd064cb",
+    "id": "f0196bec-c6da-4a29-ac44-c8273cd064cb",
+    "name": "Citibank Kazakhstan",
+    "logo": "/img/logos/citi.svg",
+    "url": "https://www.citi.com/russia/kaz",
+    "full_name": {
+      "ru": "АО «Ситибанк Казахстан»",
+      "en": "Citibank Kazakhstan",
+      "kk": "Citibank Қазақстан"
+    },
+    "rep": {
+      "ru": "Сауле Жакаева, Председатель Правления",
+      "en": "Saule Zhakayeva, CEO",
+      "kk": "Сауле Жақаева, Басқарма Төрайымы"
+    },
+    "photo": null,
+    "sessions": [
+      1
+    ],
+    "category": "national",
+    "sort_order": 34,
+    "created_at": "2026-04-23T18:12:22.652Z",
+    "updated_at": "2026-04-28T05:24:27.633Z",
+    "published": true
+  },
+  {
+    "_id": "b65fc3a2-4830-48e1-9951-ffcc3c6f352f",
+    "id": "b65fc3a2-4830-48e1-9951-ffcc3c6f352f",
+    "name": "AIFC",
+    "logo": "/img/logos/aifc.svg",
+    "url": "https://www.aifc.kz",
+    "full_name": {
+      "ru": "Международный финансовый центр «Астана»",
+      "en": "Astana International Financial Centre",
+      "kk": "Астана халықаралық қаржы орталығы"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "national",
+    "sort_order": 35,
+    "created_at": "2026-04-23T18:12:22.654Z",
+    "updated_at": "2026-04-28T05:24:27.636Z",
+    "published": true
+  },
+  {
+    "_id": "887526db-93aa-4d4c-9db4-de69b9c2f554",
+    "id": "887526db-93aa-4d4c-9db4-de69b9c2f554",
+    "name": "Атамекен",
+    "logo": "/img/logos/atameken.png",
+    "url": "https://atameken.kz",
+    "full_name": {
+      "ru": "Национальная палата предпринимателей «Атамекен»",
+      "en": "National Chamber of Entrepreneurs «Atameken»",
+      "kk": "«Атамекен» ҰКП"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "institutional",
+    "sort_order": 36,
+    "created_at": "2026-04-23T18:12:22.656Z",
+    "updated_at": "2026-04-28T05:24:27.638Z",
+    "published": true
+  },
+  {
+    "_id": "af2bd277-8773-4e97-bcec-6cd5e5b45099",
+    "id": "af2bd277-8773-4e97-bcec-6cd5e5b45099",
+    "name": "КазНУИ",
+    "logo": "/img/logos/kaznui.png",
+    "url": "https://kaznui.kz",
+    "full_name": {
+      "ru": "Казахский национальный университет искусств",
+      "en": "Kazakh National University of Arts",
+      "kk": "Қазақ ұлттық өнер университеті"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "institutional",
+    "sort_order": 37,
+    "created_at": "2026-04-23T18:12:22.658Z",
+    "updated_at": "2026-04-28T05:24:27.640Z",
+    "published": true
+  },
+  {
+    "_id": "57ed8d36-7d08-4ae5-b53c-52150a64cc38",
+    "id": "57ed8d36-7d08-4ae5-b53c-52150a64cc38",
+    "name": "АГУ",
+    "logo": "/img/logos/agu.svg",
+    "url": "https://apa.kz",
+    "full_name": {
+      "ru": "Академия государственного управления при Президенте РК",
+      "en": "Academy of Public Administration under the President of Kazakhstan",
+      "kk": "ҚР Президентінің жанындағы Мемлекеттік басқару академиясы"
+    },
+    "rep": null,
+    "photo": null,
+    "sessions": [],
+    "category": "institutional",
+    "sort_order": 38,
+    "created_at": "2026-04-23T18:12:22.661Z",
+    "updated_at": "2026-04-28T05:24:27.643Z",
+    "published": true
+  },
+  {
+    "_id": "389d4034-e4f4-490b-8ef5-77144b1c082a",
+    "id": "389d4034-e4f4-490b-8ef5-77144b1c082a",
+    "name": "UNDP",
+    "logo": "/img/logos/undp.webp",
+    "url": "https://www.undp.org",
+    "full_name": {
+      "ru": "Программа развития ООН",
+      "en": "United Nations Development Programme",
+      "kk": "БҰҰ Даму бағдарламасы"
+    },
+    "rep": {
+      "ru": "Катаржина Вавьерниа, Постоянный представитель в РК",
+      "en": "Katarzyna Wawiernia, Resident Representative",
+      "kk": "Катаржина Вавьерниа, тұрақты өкіл"
+    },
+    "photo": "/img/partners/Катаржина Вавьерниа.jpg",
+    "sessions": [
+      2
+    ],
+    "category": "international",
+    "sort_order": 3,
+    "created_at": "2026-04-28T05:24:27.538Z",
+    "updated_at": "2026-04-28T05:24:27.538Z"
+  }
+]

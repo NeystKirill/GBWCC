@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 60">
+  <rect width="130" height="60" fill="#ffffff"/>
+  <path d="M30,8 L38,10 L44,16 L46,24 L44,30 L50,34 L50,40 L44,44 L36,46 L28,46 L20,44 L14,40 L14,34 L20,30 L18,24 L20,16 L26,10 Z" fill="#FFD500"/>
+  <path d="M30,11 L37,13 L42,18 L44,25 L40,30 L46,35 L45,40 L38,43 L28,43 L21,43 L16,40 L15,35 L21,30 L19,24 L21,18 L26,13 Z" fill="#DD1D21"/>
+  <path d="M28,14 L35,16 L39,21 L40,27 L36,31 L41,36 L40,40 L34,42 L28,42 L22,42 L18,40 L17,36 L22,31 L20,27 L22,21 L26,16 Z" fill="#FFD500"/>
+  <text x="62" y="36" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#DD1D21">Shell</text>
+</svg>

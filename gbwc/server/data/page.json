@@ -1,0 +1,2333 @@
+[
+  {
+    "_id": "f0ca8239-bbbf-42e6-b904-4957c6975ebf",
+    "id": "f0ca8239-bbbf-42e6-b904-4957c6975ebf",
+    "key": "home/hero",
+    "content": {
+      "slides": [
+        {
+          "videoId": "HvmRX-bCl5Y",
+          "title": {
+            "ru": "Opening GBWC",
+            "en": "Opening GBWC",
+            "kk": "Opening GBWC"
+          },
+          "tag": {
+            "ru": "GBWC · Институциональная платформа",
+            "en": "GBWC · Institutional Platform",
+            "kk": "GBWC · Институционалдық платформа"
+          },
+          "lines": [
+            {
+              "ru": "Global",
+              "en": "Global",
+              "kk": "Global"
+            },
+            {
+              "ru": "Businesswomen",
+              "en": "Businesswomen",
+              "kk": "Businesswomen"
+            },
+            {
+              "ru": "Council —",
+              "en": "Council —",
+              "kk": "Council —"
+            },
+            {
+              "ru": "Институциональная",
+              "en": "Institutional",
+              "kk": "Институционалдық"
+            },
+            {
+              "ru": "диалоговая платформа",
+              "en": "dialogue platform",
+              "kk": "диалог платформасы"
+            }
+          ]
+        },
+        {
+          "videoId": "yLAvCrhiRwM",
+          "title": {
+            "ru": "I Пленарное заседание",
+            "en": "First Plenary Session",
+            "kk": "I Пленарлық отырыс"
+          },
+          "tag": {
+            "ru": "Astana · 2023",
+            "en": "Astana · 2023",
+            "kk": "Astana · 2023"
+          },
+          "lines": [
+            {
+              "ru": "Инфраструктура",
+              "en": "Infrastructure",
+              "kk": "Инфрақұрылым"
+            },
+            {
+              "ru": "развития",
+              "en": "for developing",
+              "kk": "дамытуға"
+            },
+            {
+              "ru": "women-led",
+              "en": "women-led",
+              "kk": "women-led"
+            },
+            {
+              "ru": "бизнеса",
+              "en": "business",
+              "kk": "бизнес"
+            }
+          ]
+        },
+        {
+          "videoId": "c8zthz-qD8Y",
+          "title": {
+            "ru": "II Пленарное заседание",
+            "en": "Second Plenary Session",
+            "kk": "II Пленарлық отырыс"
+          },
+          "tag": {
+            "ru": "Astana · 2024",
+            "en": "Astana · 2024",
+            "kk": "Astana · 2024"
+          },
+          "lines": [
+            {
+              "ru": "Интеграция",
+              "en": "Integration",
+              "kk": "Интеграция"
+            },
+            {
+              "ru": "в глобальные",
+              "en": "into global",
+              "kk": "жаһандық"
+            },
+            {
+              "ru": "рынки",
+              "en": "markets",
+              "kk": "нарықтарға"
+            }
+          ]
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.012Z",
+    "updated_at": "2026-04-23T18:06:33.013Z",
+    "published": true
+  },
+  {
+    "_id": "31a04894-a976-45bf-9d68-4c0b464cb001",
+    "id": "31a04894-a976-45bf-9d68-4c0b464cb001",
+    "key": "home/about",
+    "content": {
+      "label": {
+        "ru": "О платформе",
+        "en": "About the Platform",
+        "kk": "Платформа туралы"
+      },
+      "title": {
+        "ru": "Global Businesswomen Council — международная платформа стратегического диалога",
+        "en": "Global Businesswomen Council — an international platform for strategic dialogue",
+        "kk": "Global Businesswomen Council — стратегиялық диалогтың халықаралық платформасы"
+      },
+      "p1": {
+        "ru": "GBWC объединяет женщин-лидеров бизнеса, представителей государственных институтов, международных организаций и экспертного сообщества для развития инклюзивной мировой экономики.",
+        "en": "GBWC unites women business leaders, representatives of government institutions, international organisations and the expert community for an inclusive global economy.",
+        "kk": "GBWC инклюзивті жаһандық экономика үшін бизнес-көшбасшы әйелдерді, мемлекеттік институттарды, халықаралық ұйымдар мен сарапшылар қауымдастығын біріктіреді."
+      },
+      "p2": {
+        "ru": "Платформа создаёт институциональные условия для диалога, партнёрства и совместных инициатив на глобальном уровне.",
+        "en": "The platform creates institutional conditions for dialogue, partnership and joint initiatives at the global level.",
+        "kk": "Платформа жаһандық деңгейде диалог, серіктестік және бірлескен бастамалар үшін институционалдық жағдай жасайды."
+      },
+      "p3": {
+        "ru": "С 2023 года GBWC провела три пленарных заседания с участием более 15 организаций из 13+ стран.",
+        "en": "Since 2023, GBWC has held three plenary sessions with over 15 organisations from 13+ countries.",
+        "kk": "2023 жылдан бастап GBWC 13+ елден 15-тен астам ұйым қатысқан үш пленарлық сессия өткізді."
+      },
+      "cta": {
+        "ru": "Подробнее о Совете",
+        "en": "Learn About the Council",
+        "kk": "Кеңес туралы толығырақ"
+      },
+      "quote": {
+        "ru": "«Мы формируем пространство для диалога, где женщины-лидеры могут влиять на глобальную повестку»",
+        "en": "\"We create a space for dialogue where women leaders can influence the global agenda\"",
+        "kk": "«Біз әйел-көшбасшылардың жаһандық күн тәртібіне ықпал ете алатын диалог кеңістігін қалыптастырамыз»"
+      },
+      "stats": [
+        {
+          "num": "15+",
+          "label": {
+            "ru": "Участников",
+            "en": "Participants",
+            "kk": "Қатысушылар"
+          }
+        },
+        {
+          "num": "13+",
+          "label": {
+            "ru": "Стран-участниц",
+            "en": "Member Countries",
+            "kk": "Қатысушы елдер"
+          }
+        },
+        {
+          "num": "3",
+          "label": {
+            "ru": "Мероприятия",
+            "en": "Events",
+            "kk": "Іс-шаралар"
+          }
+        },
+        {
+          "num": "5+",
+          "label": {
+            "ru": "Проектов и Инициатив",
+            "en": "Projects & Initiatives",
+            "kk": "Жобалар мен бастамалар"
+          }
+        }
+      ],
+      "slideshow": [
+        "/img/plenary/session3_group.jpeg",
+        "/img/plenary/session1_group.jpeg",
+        "/img/plenary/session1_ribbon.jpeg",
+        "/img/plenary/plenar1_5_main.jpg"
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.015Z",
+    "updated_at": "2026-04-23T19:54:19.790Z",
+    "published": true
+  },
+  {
+    "_id": "86e0769f-372c-4408-a26f-c389b4dbf5cc",
+    "id": "86e0769f-372c-4408-a26f-c389b4dbf5cc",
+    "key": "home/quote",
+    "content": {
+      "eyebrow": {
+        "ru": "НАША МИССИЯ",
+        "en": "OUR MISSION",
+        "kk": "БІЗДІҢ МИССИЯ"
+      },
+      "title": {
+        "ru": "Строить мосты между лидерами",
+        "en": "Building bridges between leaders",
+        "kk": "Көшбасшылар арасында көпір салу"
+      },
+      "lead": {
+        "ru": "GBWC — это международная платформа, где женщины-лидеры встречаются для диалога, обмена опытом и совместных инициатив.",
+        "en": "GBWC is an international platform where women leaders meet for dialogue, knowledge exchange and joint initiatives.",
+        "kk": "GBWC — әйел-көшбасшылар диалог, тәжірибе алмасу және бірлескен бастамалар үшін жиналатын халықаралық платформа."
+      },
+      "pillars": [
+        {
+          "icon": "◆",
+          "label": {
+            "ru": "Диалог",
+            "en": "Dialogue",
+            "kk": "Диалог"
+          },
+          "text": {
+            "ru": "Нейтральное пространство для стратегического обмена между государством, бизнесом и международными организациями.",
+            "en": "A neutral space for strategic exchange between government, business and international organisations.",
+            "kk": "Мемлекет, бизнес пен халықаралық ұйымдар арасындағы стратегиялық алмасуға арналған бейтарап кеңістік."
+          }
+        },
+        {
+          "icon": "◈",
+          "label": {
+            "ru": "Партнёрство",
+            "en": "Partnership",
+            "kk": "Серіктестік"
+          },
+          "text": {
+            "ru": "Долгосрочные партнёрства между корпорациями, финансовыми институтами и государственными структурами.",
+            "en": "Long-term partnerships between corporations, financial institutions and government bodies.",
+            "kk": "Корпорациялар, қаржы институттары мен мемлекеттік құрылымдар арасындағы ұзақ мерзімді серіктестік."
+          }
+        },
+        {
+          "icon": "◉",
+          "label": {
+            "ru": "Влияние",
+            "en": "Impact",
+            "kk": "Ықпал"
+          },
+          "text": {
+            "ru": "Формирование рекомендаций и инициатив на национальном и международном уровне.",
+            "en": "Shaping recommendations and initiatives at national and international level.",
+            "kk": "Ұлттық және халықаралық деңгейдегі ұсыныстар мен бастамалар қалыптастыру."
+          }
+        }
+      ],
+      "quote": {
+        "ru": "«Мы создаём пространство, где лидеры могут влиять на глобальную повестку.»",
+        "en": "\"We create a space where leaders can influence the global agenda.\"",
+        "kk": "«Біз көшбасшылардың жаһандық күн тәртібіне ықпал ете алатын кеңістік жасаймыз.»"
+      },
+      "author": {
+        "ru": "Жанна Байдашева",
+        "en": "Zhanna Baidasheva",
+        "kk": "Жанна Байдашева"
+      },
+      "role": {
+        "ru": "Основатель GBWC",
+        "en": "GBWC Founder",
+        "kk": "GBWC Негізін қалаушы"
+      }
+    },
+    "created_at": "2026-04-23T18:06:33.017Z",
+    "updated_at": "2026-04-23T18:06:33.017Z",
+    "published": true
+  },
+  {
+    "_id": "a5b4dbd0-eac9-44f0-bd47-3144c1e49696",
+    "id": "a5b4dbd0-eac9-44f0-bd47-3144c1e49696",
+    "key": "home/directions",
+    "content": {
+      "sectionLabel": {
+        "ru": "Направления деятельности",
+        "en": "Areas of Work",
+        "kk": "Қызмет бағыттары"
+      },
+      "sectionTitle": {
+        "ru": "Ключевые направления работы платформы",
+        "en": "Key areas of the platform's work",
+        "kk": "Платформа жұмысының негізгі бағыттары"
+      },
+      "sectionSubtext": {
+        "ru": "GBWC работает по четырём взаимосвязанным направлениям.",
+        "en": "GBWC operates across four interconnected areas.",
+        "kk": "GBWC төрт өзара байланысты бағыт бойынша жұмыс істейді."
+      },
+      "items": [
+        {
+          "title": {
+            "ru": "Международное сотрудничество и дипломатия",
+            "en": "International Diplomacy and Cooperation",
+            "kk": "Халықаралық ынтымақтастық және дипломатия"
+          },
+          "desc": {
+            "ru": "Укрепление стратегического диалога между государствами, международными институтами и глобальным бизнесом.",
+            "en": "Strengthening strategic dialogue between states, international institutions, and global business.",
+            "kk": "Мемлекеттер, халықаралық институттар мен жаһандық бизнес арасындағы стратегиялық диалогты нығайту."
+          }
+        },
+        {
+          "title": {
+            "ru": "Развитие женского предпринимательства",
+            "en": "Women's Entrepreneurship Development",
+            "kk": "Әйелдер кәсіпкерлігін дамыту"
+          },
+          "desc": {
+            "ru": "Масштабирование программ поддержки, содействие выходу на международные рынки.",
+            "en": "Scaling support programs, facilitating access to international markets.",
+            "kk": "Қолдау бағдарламаларын кеңейту, халықаралық нарықтарға шығуға жәрдемдесу."
+          }
+        },
+        {
+          "title": {
+            "ru": "Социальные инвестиции и партнерства",
+            "en": "Social Investments and Partnerships",
+            "kk": "Әлеуметтік инвестициялар мен серіктестіктер"
+          },
+          "desc": {
+            "ru": "Реализация системных социальных проектов.",
+            "en": "Implementation of systemic social projects.",
+            "kk": "Жүйелі әлеуметтік жобаларды іске асыру."
+          }
+        },
+        {
+          "title": {
+            "ru": "Культурное взаимодействие",
+            "en": "Cultural Interaction",
+            "kk": "Мәдени өзара іс-қимыл"
+          },
+          "desc": {
+            "ru": "Развитие межнационального диалога через культурные проекты.",
+            "en": "Development of intercultural dialogue through cultural projects.",
+            "kk": "Мәдени жобалар арқылы ұлтаралық диалогты дамыту."
+          }
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.019Z",
+    "updated_at": "2026-04-23T18:06:33.019Z",
+    "published": true
+  },
+  {
+    "_id": "a610b104-ffac-4196-b589-876d824faac1",
+    "id": "a610b104-ffac-4196-b589-876d824faac1",
+    "key": "home/plenary",
+    "content": {
+      "sectionLabel": {
+        "ru": "Пленарные заседания",
+        "en": "Plenary Sessions",
+        "kk": "Пленарлық сессиялар"
+      },
+      "sectionTitle": {
+        "ru": "Три заседания — три этапа диалога",
+        "en": "Three sessions — three stages of dialogue",
+        "kk": "Үш сессия — диалогтың үш кезеңі"
+      },
+      "more": {
+        "ru": "Подробнее",
+        "en": "Learn more",
+        "kk": "Толығырақ"
+      },
+      "items": [
+        {
+          "year": "2023",
+          "num": {
+            "ru": "Первое заседание",
+            "en": "First Session",
+            "kk": "Бірінші сессия"
+          },
+          "title": {
+            "ru": "Женщины в мировой экономике",
+            "en": "Women in the Global Economy",
+            "kk": "Жаһандық экономикадағы әйелдер"
+          },
+          "desc": {
+            "ru": "Дискуссия о роли женского предпринимательства в устойчивом развитии.",
+            "en": "Discussion on the role of women's entrepreneurship in sustainable development.",
+            "kk": "Тұрақты дамудағы әйел кәсіпкерлігінің рөлін талқылау."
+          }
+        },
+        {
+          "year": "2024",
+          "num": {
+            "ru": "Второе заседание",
+            "en": "Second Session",
+            "kk": "Екінші сессия"
+          },
+          "title": {
+            "ru": "Инвестиции в человеческий капитал",
+            "en": "Investing in Human Capital",
+            "kk": "Адами капиталға инвестиция"
+          },
+          "desc": {
+            "ru": "Стратегический диалог об инвестировании в образование и лидерство.",
+            "en": "Strategic dialogue on investing in education and leadership.",
+            "kk": "Білім беру мен көшбасшылыққа инвестициялау туралы стратегиялық диалог."
+          }
+        },
+        {
+          "year": "2025",
+          "num": {
+            "ru": "Третье заседание",
+            "en": "Third Session",
+            "kk": "Үшінші сессия"
+          },
+          "title": {
+            "ru": "Глобальное партнёрство для роста",
+            "en": "Global Partnership for Growth",
+            "kk": "Өсуге арналған жаһандық серіктестік"
+          },
+          "desc": {
+            "ru": "Формирование новой архитектуры международного сотрудничества.",
+            "en": "Building a new architecture of international cooperation.",
+            "kk": "Халықаралық ынтымақтастықтың жаңа архитектурасын қалыптастыру."
+          }
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.023Z",
+    "updated_at": "2026-04-23T18:06:33.023Z",
+    "published": true
+  },
+  {
+    "_id": "7fe7c7d8-45c8-42b4-8748-807d3648dc32",
+    "id": "7fe7c7d8-45c8-42b4-8748-807d3648dc32",
+    "key": "home/initiatives",
+    "content": {
+      "sectionLabel": {
+        "ru": "Инициативы GBWC",
+        "en": "GBWC Initiatives",
+        "kk": "GBWC Бастамалары"
+      },
+      "sectionTitle": {
+        "ru": "Наши ключевые инициативы",
+        "en": "Our key initiatives",
+        "kk": "Біздің негізгі бастамаларымыз"
+      },
+      "more": {
+        "ru": "Подробнее",
+        "en": "Learn more",
+        "kk": "Толығырақ"
+      },
+      "items": [
+        {
+          "tag": {
+            "ru": "Рейтинговая система",
+            "en": "Rating System",
+            "kk": "Рейтинг жүйесі"
+          },
+          "title": "G-Index Initiative",
+          "desc": {
+            "ru": "Международная система оценки готовности women-led предприятий.",
+            "en": "International rating system for women-led enterprises.",
+            "kk": "Әйелдер басқаратын кәсіпорындарды бағалау жүйесі."
+          }
+        },
+        {
+          "tag": {
+            "ru": "Цифровая платформа",
+            "en": "Digital Platform",
+            "kk": "Цифрлық платформа"
+          },
+          "title": "G-Index Hub",
+          "desc": {
+            "ru": "Единая цифровая инфраструктура: сертификация, реестр, академия.",
+            "en": "Unified digital infrastructure: certification, registry, academy.",
+            "kk": "Сертификаттау, тіркелім, академия — цифрлық инфрақұрылым."
+          }
+        },
+        {
+          "tag": {
+            "ru": "Образование",
+            "en": "Education",
+            "kk": "Білім"
+          },
+          "title": "G-Index Academy",
+          "desc": {
+            "ru": "Программы наращивания потенциала для предпринимательниц.",
+            "en": "Capacity building programmes for women entrepreneurs.",
+            "kk": "Кәсіпкер әйелдерге арналған бағдарламалар."
+          }
+        },
+        {
+          "tag": {
+            "ru": "Технологии",
+            "en": "Technology",
+            "kk": "Технология"
+          },
+          "title": "IT-AIEL",
+          "desc": {
+            "ru": "Инициатива по развитию цифровых компетенций среди женщин.",
+            "en": "Initiative for developing digital competencies among women.",
+            "kk": "Әйелдер арасында цифрлық құзыреттілікті дамытуға арналған бастама."
+          }
+        },
+        {
+          "tag": {
+            "ru": "Общество",
+            "en": "Society",
+            "kk": "Қоғам"
+          },
+          "title": {
+            "ru": "Социальные инициативы",
+            "en": "Social Initiatives",
+            "kk": "Әлеуметтік бастамалар"
+          },
+          "desc": {
+            "ru": "Программы устойчивого развития и социальной ответственности.",
+            "en": "Programmes in sustainable development and CSR.",
+            "kk": "Тұрақты даму мен корпоративтік жауапкершілік бағдарламалары."
+          }
+        },
+        {
+          "tag": {
+            "ru": "Культура",
+            "en": "Culture",
+            "kk": "Мәдениет"
+          },
+          "title": {
+            "ru": "Культурные инициативы",
+            "en": "Cultural Initiatives",
+            "kk": "Мәдени бастамалар"
+          },
+          "desc": {
+            "ru": "Проекты в сфере международного культурного диалога.",
+            "en": "Projects in international cultural dialogue.",
+            "kk": "Халықаралық мәдени диалог жобалары."
+          }
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.025Z",
+    "updated_at": "2026-04-23T18:06:33.025Z",
+    "published": true
+  },
+  {
+    "_id": "6cebda3d-3c9c-46e6-a93e-60f2f67f8e92",
+    "id": "6cebda3d-3c9c-46e6-a93e-60f2f67f8e92",
+    "key": "home/partners",
+    "content": {
+      "sectionLabel": {
+        "ru": "Пленарные заседания",
+        "en": "Plenary Sessions",
+        "kk": "Пленарлық отырыстар"
+      },
+      "sectionTitle": {
+        "ru": "Участники пленарных заседаний",
+        "en": "Plenary Session Participants",
+        "kk": "Пленарлық отырыс қатысушылары"
+      },
+      "sectionSubtext": {
+        "ru": "Платформа объединяет международные организации, ведущие корпорации и национальные институты.",
+        "en": "",
+        "kk": ""
+      },
+      "intlLabel": {
+        "ru": "Международные организации",
+        "en": "International Organisations",
+        "kk": "Халықаралық ұйымдар"
+      },
+      "corpLabel": {
+        "ru": "Корпоративные участники",
+        "en": "Corporate Participants",
+        "kk": "Корпоративтік қатысушылар"
+      },
+      "natlLabel": {
+        "ru": "Национальные институты",
+        "en": "National Institutions",
+        "kk": "Ұлттық институттар"
+      },
+      "intl": [
+        "ООН Женщины / UN Women",
+        "ЮНКТАД / UNCTAD",
+        "МОТ / ILO",
+        "Глобальный договор ООН / UN Global Compact",
+        "ЮНИДО / UNIDO",
+        "ЕЭК ООН / UNECE"
+      ],
+      "corp": [
+        "iCore",
+        "Deloitte",
+        "KPMG",
+        "PricewaterhouseCoopers",
+        "Ernst & Young"
+      ],
+      "natl": [
+        "АО «НУХ Байтерек»",
+        "QazTrade",
+        "KAZNEX INVEST",
+        "Палата предпринимателей",
+        "НПП «Атамекен»"
+      ]
+    },
+    "created_at": "2026-04-23T18:06:33.028Z",
+    "updated_at": "2026-04-23T18:06:33.028Z",
+    "published": true
+  },
+  {
+    "_id": "e9bfd615-268a-4993-ab08-06a02eca26c6",
+    "id": "e9bfd615-268a-4993-ab08-06a02eca26c6",
+    "key": "home/coop",
+    "content": {
+      "label": {
+        "ru": "Присоединяйтесь",
+        "en": "Join Us",
+        "kk": "Қосылыңыз"
+      },
+      "title": {
+        "ru": "Станьте частью глобального диалога",
+        "en": "Become Part of the Global Dialogue",
+        "kk": "Жаһандық диалогтың бір бөлігі болыңыз"
+      },
+      "text": {
+        "ru": "GBWC открыта для сотрудничества с международными организациями, компаниями, образовательными учреждениями, экспертным сообществом и государственными институтами.",
+        "en": "GBWC is open for cooperation with international organisations, companies, educational institutions, the expert community and government bodies.",
+        "kk": "GBWC халықаралық ұйымдар, компаниялар, білім беру мекемелері, сарапшылар қауымдастығы мен мемлекеттік институттармен ынтымақтастыққа ашық."
+      },
+      "tags": [
+        {
+          "ru": "Международные организации",
+          "en": "International Organisations",
+          "kk": "Халықаралық ұйымдар"
+        },
+        {
+          "ru": "Компании",
+          "en": "Companies",
+          "kk": "Компаниялар"
+        },
+        {
+          "ru": "Государственные институты",
+          "en": "Government Bodies",
+          "kk": "Мемлекеттік институттар"
+        },
+        {
+          "ru": "Образовательные учреждения",
+          "en": "Educational Institutions",
+          "kk": "Білім беру мекемелері"
+        },
+        {
+          "ru": "Экспертное сообщество",
+          "en": "Expert Community",
+          "kk": "Сарапшылар"
+        }
+      ],
+      "btn1": {
+        "ru": "Связаться с нами",
+        "en": "Contact Us",
+        "kk": "Бізбен байланысыңыз"
+      },
+      "btn2": {
+        "ru": "Направить предложение",
+        "en": "Submit a Proposal",
+        "kk": "Ұсыныс жіберу"
+      }
+    },
+    "created_at": "2026-04-23T18:06:33.032Z",
+    "updated_at": "2026-04-23T18:06:33.032Z",
+    "published": true
+  },
+  {
+    "_id": "12bf45c6-3416-46b7-b29a-657154588265",
+    "id": "12bf45c6-3416-46b7-b29a-657154588265",
+    "key": "home/stats",
+    "content": [
+      {
+        "n": 15,
+        "sx": "+",
+        "label": {
+          "ru": "Стран-участниц",
+          "en": "Member Countries",
+          "kk": "Қатысушы елдер"
+        },
+        "desc": {
+          "ru": "Азия, Европа, СНГ и Ближний Восток",
+          "en": "Asia, Europe, CIS and Middle East",
+          "kk": "Азия, Еуропа, ТМД және Таяу Шығыс"
+        }
+      },
+      {
+        "n": 3,
+        "sx": "+",
+        "label": {
+          "ru": "Пленарных заседаний",
+          "en": "Plenary Sessions",
+          "kk": "Пленарлық отырыстар"
+        },
+        "desc": {
+          "ru": "Диалог на высшем уровне 2023–2025",
+          "en": "High-level dialogue 2023–2025",
+          "kk": "2023–2025 жоғары деңгейлі диалог"
+        }
+      },
+      {
+        "n": 15,
+        "sx": "+",
+        "label": {
+          "ru": "Партнёров",
+          "en": "Partners",
+          "kk": "Серіктестер"
+        },
+        "desc": {
+          "ru": "Транснациональные корпорации и институты",
+          "en": "Transnational corporations and institutions",
+          "kk": "Трансұлттық корпорациялар мен институттар"
+        }
+      },
+      {
+        "n": 7,
+        "sx": "+",
+        "label": {
+          "ru": "Инициатив и проектов",
+          "en": "Initiatives & Projects",
+          "kk": "Бастамалар мен жобалар"
+        },
+        "desc": {
+          "ru": "Стратегические социальные программы",
+          "en": "Strategic social programs",
+          "kk": "Стратегиялық әлеуметтік бағдарламалар"
+        }
+      }
+    ],
+    "created_at": "2026-04-23T18:06:33.035Z",
+    "updated_at": "2026-04-23T18:06:33.035Z",
+    "published": true
+  },
+  {
+    "_id": "c818fc0d-fc84-474b-8f72-73e7141a9297",
+    "id": "c818fc0d-fc84-474b-8f72-73e7141a9297",
+    "key": "initiatives",
+    "content": {
+      "blocks": [
+        {
+          "id": "i1",
+          "type": "Hero",
+          "data": {
+            "label": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "title": {
+              "ru": "Инициативы",
+              "en": "Initiatives",
+              "kk": "Бастамалар"
+            },
+            "titleEmphasis": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "desc": {
+              "ru": "Совет реализует инициативы в области аналитики, образования, цифровых навыков, социальной поддержки и культурного сотрудничества.",
+              "en": "The Council implements initiatives in analytics, education, digital skills, social support and cultural cooperation.",
+              "kk": "Кеңес аналитика, білім беру, цифрлық дағдылар, әлеуметтік қолдау және мәдени ынтымақтастық саласында бастамаларды жүзеге асырады."
+            }
+          }
+        },
+        {
+          "id": "i2",
+          "type": "InitiativesContent",
+          "data": {}
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:12:22.677Z",
+    "updated_at": "2026-04-28T06:24:44.597Z",
+    "published": true
+  },
+  {
+    "_id": "35f946d1-3124-41bf-a0de-c0211d6168f6",
+    "id": "35f946d1-3124-41bf-a0de-c0211d6168f6",
+    "key": "events",
+    "content": {
+      "blocks": [
+        {
+          "id": "e1",
+          "type": "Hero",
+          "data": {
+            "label": {
+              "ru": "GBWC",
+              "en": "GBWC",
+              "kk": "GBWC"
+            },
+            "title": {
+              "ru": "Пленарные заседания",
+              "en": "Plenary Sessions",
+              "kk": "Пленарлық отырыстар"
+            },
+            "titleEmphasis": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "desc": {
+              "ru": "Основной формат деятельности Совета — международные пленарные заседания, объединяющие лидеров бизнеса, государственных деятелей и представителей международных организаций.",
+              "en": "The Council's main format — international plenary sessions bringing together business leaders, government officials and representatives of international organisations.",
+              "kk": "Кеңестің негізгі форматы — бизнес-лидерлерді, мемлекеттік қайраткерлерді және халықаралық ұйымдар өкілдерін біріктіретін пленарлық отырыстар."
+            }
+          }
+        },
+        {
+          "id": "e2",
+          "type": "EventsContent",
+          "data": {}
+        }
+      ]
+    },
+    "created_at": "2026-04-23T18:12:22.679Z",
+    "updated_at": "2026-04-28T06:24:44.609Z",
+    "published": true
+  },
+  {
+    "_id": "18a742bf-bb70-4efc-8461-00880ad8bdaa",
+    "id": "18a742bf-bb70-4efc-8461-00880ad8bdaa",
+    "key": "home",
+    "content": {
+      "blocks": [
+        {
+          "id": "h1",
+          "type": "VideoHero",
+          "data": {}
+        },
+        {
+          "id": "h2",
+          "type": "HomeAbout",
+          "data": {
+            "label": {
+              "ru": "О ПЛАТФОРМЕ",
+              "en": "ABOUT THE PLATFORM",
+              "kk": "ПЛАТФОРМА ТУРАЛЫ"
+            },
+            "title": {
+              "ru": "Global Businesswomen Council — международная платформа стратегического диалога",
+              "en": "Global Businesswomen Council — an international platform for strategic dialogue",
+              "kk": "Global Businesswomen Council — стратегиялық диалогтың халықаралық платформасы"
+            },
+            "p1": {
+              "ru": "GBWC объединяет женщин-лидеров бизнеса, представителей государственных институтов, международных организаций и экспертного сообщества для развития инклюзивной мировой экономики.",
+              "en": "GBWC unites women business leaders, representatives of government institutions, international organisations and the expert community for an inclusive global economy.",
+              "kk": "GBWC инклюзивті жаһандық экономика үшін бизнес-көшбасшы әйелдерді, мемлекеттік институттарды, халықаралық ұйымдар мен сарапшылар қауымдастығын біріктіреді."
+            },
+            "p2": {
+              "ru": "Платформа создаёт институциональные условия для диалога, партнёрства и совместных инициатив на глобальном уровне.",
+              "en": "The platform creates institutional conditions for dialogue, partnership and joint initiatives at the global level.",
+              "kk": "Платформа жаһандық деңгейде диалог, серіктестік және бірлескен бастамалар үшін институционалдық жағдай жасайды."
+            },
+            "p3": {
+              "ru": "С 2023 года GBWC провела три пленарных заседания с участием более 15 организаций из 13+ стран, объединив государственных деятелей, корпорации и экспертное сообщество.",
+              "en": "Since 2023, GBWC has held three plenary sessions with over 15 organisations from 13+ countries, bringing together government officials, corporations and the expert community.",
+              "kk": "2023 жылдан бастап GBWC 13+ елден 15-тен астам ұйым қатысқан үш пленарлық сессия өткізді."
+            },
+            "cta": {
+              "ru": "Подробнее о Совете",
+              "en": "Learn About the Council",
+              "kk": "Кеңес туралы толығырақ"
+            },
+            "quote": {
+              "ru": "«Мы формируем пространство для диалога, где женщины-лидеры могут влиять на глобальную повестку»",
+              "en": "\"We create a space for dialogue where women leaders can influence the global agenda\"",
+              "kk": "«Біз әйел-көшбасшылардың жаһандық күн тәртібіне ықпал ете алатын диалог кеңістігін қалыптастырамыз»"
+            },
+            "reverseLayout": false
+          }
+        },
+        {
+          "id": "h3",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h4",
+          "type": "HomeQuote",
+          "data": {
+            "eyebrow": {
+              "ru": "НАША МИССИЯ",
+              "en": "OUR MISSION",
+              "kk": "БІЗДІҢ МИССИЯ"
+            },
+            "title": {
+              "ru": "Строить мосты между лидерами",
+              "en": "Building bridges between leaders",
+              "kk": "Көшбасшылар арасында көпір салу"
+            },
+            "lead": {
+              "ru": "GBWC — это международная платформа, где женщины-лидеры в бизнесе, государственных институтах и международных организациях встречаются для диалога, обмена опытом и совместных инициатив.",
+              "en": "GBWC is an international platform where women leaders in business, government institutions and international organisations meet for dialogue, experience exchange and joint initiatives.",
+              "kk": "GBWC — бизнес, мемлекеттік институттар мен халықаралық ұйымдардағы әйел көшбасшылар диалог, тәжірибе алмасу және бірлескен бастамалар үшін кездесетін халықаралық платформа."
+            },
+            "quote": {
+              "ru": "«Мы создаём пространство, где лидеры могут влиять на глобальную повестку и формировать инклюзивное будущее мировой экономики.»",
+              "en": "\"We create a space where leaders can influence the global agenda and shape an inclusive future for the world economy.\"",
+              "kk": "«Біз көшбасшылар жаһандық күн тәртібіне ықпал ете алатын және әлемдік экономиканың инклюзивті болашағын қалыптастыра алатын кеңістік жасаймыз.»"
+            },
+            "author": {
+              "ru": "Жанна Байдашева",
+              "en": "Zhanna Baidasheva",
+              "kk": "Жанна Байдашева"
+            },
+            "role": {
+              "ru": "Основатель GBWC",
+              "en": "Founder, GBWC",
+              "kk": "GBWC негізін қалаушы"
+            },
+            "pillars": [
+              {
+                "icon": "◆",
+                "label": {
+                  "ru": "Диалог",
+                  "en": "Dialogue",
+                  "kk": "Диалог"
+                },
+                "text": {
+                  "ru": "Нейтральное пространство для честного и стратегического обмена между государством, бизнесом и международными организациями.",
+                  "en": "A neutral space for honest strategic exchange between government, business and international organisations.",
+                  "kk": "Мемлекет, бизнес және халықаралық ұйымдар арасындағы адал стратегиялық алмасу үшін бейтарап кеңістік."
+                }
+              },
+              {
+                "icon": "◈",
+                "label": {
+                  "ru": "Партнёрство",
+                  "en": "Partnership",
+                  "kk": "Серіктестік"
+                },
+                "text": {
+                  "ru": "Долгосрочные партнёрства между корпорациями, финансовыми институтами и государственными структурами.",
+                  "en": "Long-term partnerships between corporations, financial institutions and government structures.",
+                  "kk": "Корпорациялар, қаржы институттары мен мемлекеттік құрылымдар арасындағы ұзақ мерзімді серіктестік."
+                }
+              },
+              {
+                "icon": "◉",
+                "label": {
+                  "ru": "Влияние",
+                  "en": "Influence",
+                  "kk": "Ықпал"
+                },
+                "text": {
+                  "ru": "Формирование рекомендаций и инициатив, которые становятся частью реальной повестки на национальном и международном уровне.",
+                  "en": "Shaping recommendations and initiatives that become part of the real agenda at national and international levels.",
+                  "kk": "Ұлттық және халықаралық деңгейде нақты күн тәртібінің бөлігіне айналатын ұсынымдар мен бастамаларды қалыптастыру."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "h5",
+          "type": "HomeStats",
+          "data": {
+            "items": [
+              {
+                "n": "15",
+                "sx": "+",
+                "label": {
+                  "ru": "Стран-участниц",
+                  "en": "Member Countries",
+                  "kk": "Қатысушы елдер"
+                },
+                "desc": {
+                  "ru": "Азия, Европа, СНГ и Ближний Восток",
+                  "en": "Asia, Europe, CIS and Middle East",
+                  "kk": "Азия, Еуропа, ТМД және Таяу Шығыс"
+                }
+              },
+              {
+                "n": "3",
+                "sx": "+",
+                "label": {
+                  "ru": "Пленарных заседаний",
+                  "en": "Plenary Sessions",
+                  "kk": "Пленарлық сессия"
+                },
+                "desc": {
+                  "ru": "Диалог на высшем уровне 2023–2025",
+                  "en": "Top-level dialogue 2023–2025",
+                  "kk": "Жоғары деңгейдегі диалог 2023–2025"
+                }
+              },
+              {
+                "n": "15",
+                "sx": "+",
+                "label": {
+                  "ru": "Партнёров",
+                  "en": "Partners",
+                  "kk": "Серіктестер"
+                },
+                "desc": {
+                  "ru": "Транснациональные корпорации и институты",
+                  "en": "Transnational corporations and institutions",
+                  "kk": "Трансұлттық корпорациялар мен институттар"
+                }
+              },
+              {
+                "n": "7",
+                "sx": "+",
+                "label": {
+                  "ru": "Инициатив и проектов",
+                  "en": "Initiatives & Projects",
+                  "kk": "Бастамалар мен жобалар"
+                },
+                "desc": {
+                  "ru": "Стратегические социальные программы",
+                  "en": "Strategic social programmes",
+                  "kk": "Стратегиялық әлеуметтік бағдарламалар"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "h6",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h7",
+          "type": "HomeDirections",
+          "data": {
+            "sectionLabel": {
+              "ru": "НАПРАВЛЕНИЯ",
+              "en": "FOCUS AREAS",
+              "kk": "БАҒЫТТАР"
+            },
+            "sectionTitle": {
+              "ru": "Ключевые направления деятельности",
+              "en": "Key Focus Areas",
+              "kk": "Қызметтің негізгі бағыттары"
+            },
+            "sectionSubtext": {
+              "ru": "Стратегические инициативы GBWC охватывают пять ключевых сфер развития международного сотрудничества",
+              "en": "GBWC strategic initiatives cover five key areas of international cooperation development",
+              "kk": "GBWC стратегиялық бастамалары халықаралық ынтымақтастықты дамытудың бес негізгі саласын қамтиды"
+            },
+            "items": [
+              {
+                "title": {
+                  "ru": "Аналитика и экспертиза",
+                  "en": "Analytics & Expertise",
+                  "kk": "Аналитика және сараптама"
+                },
+                "desc": {
+                  "ru": "Развитие аналитических инструментов оценки предпринимательского климата",
+                  "en": "Development of analytical tools for assessing the business climate",
+                  "kk": "Кәсіпкерлік климатын бағалаудың аналитикалық құралдарын дамыту"
+                }
+              },
+              {
+                "title": {
+                  "ru": "Образование и развитие",
+                  "en": "Education & Development",
+                  "kk": "Білім және дамуну"
+                },
+                "desc": {
+                  "ru": "Программы профессионального развития и наставничества",
+                  "en": "Professional development and mentoring programmes",
+                  "kk": "Кәсіби даму және тәлімгерлік бағдарламалары"
+                }
+              },
+              {
+                "title": {
+                  "ru": "Партнёрство и диалог",
+                  "en": "Partnership & Dialogue",
+                  "kk": "Серіктестік және диалог"
+                },
+                "desc": {
+                  "ru": "Международное сотрудничество между государством, бизнесом и организациями",
+                  "en": "International cooperation between government, business and organisations",
+                  "kk": "Мемлекет, бизнес және ұйымдар арасындағы халықаралық ынтымақтастық"
+                }
+              },
+              {
+                "title": {
+                  "ru": "Социальные проекты",
+                  "en": "Social Projects",
+                  "kk": "Әлеуметтік жобалар"
+                },
+                "desc": {
+                  "ru": "Центры поддержки семьи и социальные программы",
+                  "en": "Family support centres and social programmes",
+                  "kk": "Отбасын қолдау орталықтары және әлеуметтік бағдарламалар"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "h8",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h9",
+          "type": "HomePlenary",
+          "data": {
+            "sectionLabel": {
+              "ru": "СЕССИИ",
+              "en": "SESSIONS",
+              "kk": "СЕССИЯЛАР"
+            },
+            "sectionTitle": {
+              "ru": "Пленарные заседания",
+              "en": "Plenary Sessions",
+              "kk": "Пленарлық сессиялар"
+            }
+          }
+        },
+        {
+          "id": "h10",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h11",
+          "type": "HomeKeyPeople",
+          "data": {
+            "sectionLabel": {
+              "ru": "ЛИДЕРЫ",
+              "en": "LEADERS",
+              "kk": "КӨШБАСШЫЛАР"
+            },
+            "sectionTitle": {
+              "ru": "Участники Совета",
+              "en": "Council Members",
+              "kk": "Кеңес мүшелері"
+            },
+            "ctaText": {
+              "ru": "Лидеры бизнеса, эксперты и политики, объединяющие усилия для достижения общих целей",
+              "en": "Business leaders, experts and politicians uniting efforts for common goals",
+              "kk": "Бірлескен мақсаттар үшін күш біріктіретін бизнес-көшбасшылар, сарапшылар мен саясаткерлер"
+            },
+            "btnText": {
+              "ru": "Узнать больше",
+              "en": "Learn More",
+              "kk": "Толығырақ"
+            },
+            "people": [
+              {
+                "name": {
+                  "ru": "Одиль Рено-Бассо",
+                  "en": "Odile Renaud-Basso",
+                  "kk": "Одиль Рено-Бассо"
+                },
+                "role": {
+                  "ru": "Президент EBRD",
+                  "en": "President, EBRD",
+                  "kk": "EBRD Президенті"
+                },
+                "org": {
+                  "ru": "EBRD",
+                  "en": "EBRD",
+                  "kk": "EBRD"
+                },
+                "photo": "/img/plenary/Одиль Рено-Бассо.jpg",
+                "type": "intl"
+              },
+              {
+                "name": {
+                  "ru": "Кирсти Уилсон",
+                  "en": "Kirsty Wilson",
+                  "kk": "Кирсти Уилсон"
+                },
+                "role": {
+                  "ru": "Зам. председателя Baker McKenzie",
+                  "en": "Deputy Chair, Baker McKenzie",
+                  "kk": "Baker McKenzie төрағасының орынбасары"
+                },
+                "org": {
+                  "ru": "Baker McKenzie",
+                  "en": "Baker McKenzie",
+                  "kk": "Baker McKenzie"
+                },
+                "photo": "/img/plenary/Кирсти Уилсон.jpg",
+                "type": "corp"
+              },
+              {
+                "name": {
+                  "ru": "Антонелла Бассани",
+                  "en": "Antonella Bassani",
+                  "kk": "Антонелла Бассани"
+                },
+                "role": {
+                  "ru": "Вице-президент Всемирного банка",
+                  "en": "VP, World Bank",
+                  "kk": "Дүниежүзілік Банк вице-президенті"
+                },
+                "org": {
+                  "ru": "World Bank",
+                  "en": "World Bank",
+                  "kk": "World Bank"
+                },
+                "photo": "/img/plenary/Антонелла Бассани.jpeg",
+                "type": "intl"
+              },
+              {
+                "name": {
+                  "ru": "Джули Монако",
+                  "en": "Julie Monaco",
+                  "kk": "Джули Монако"
+                },
+                "role": {
+                  "ru": "Управляющий директор Citi",
+                  "en": "Managing Director, Citi",
+                  "kk": "Citi басқарушы директоры"
+                },
+                "org": {
+                  "ru": "Citi",
+                  "en": "Citi",
+                  "kk": "Citi"
+                },
+                "photo": "/img/plenary/Джули Монако.png",
+                "type": "corp"
+              },
+              {
+                "name": {
+                  "ru": "Аида Балаева",
+                  "en": "Aida Balaeva",
+                  "kk": "Айда Балаева"
+                },
+                "role": {
+                  "ru": "Зам. Руководителя Администрации Президента РК",
+                  "en": "Deputy Head, Presidential Administration",
+                  "kk": "ҚР Президенті Әкімшілігінің орынбасары"
+                },
+                "org": {
+                  "ru": "Администрация Президента РК",
+                  "en": "Presidential Administration",
+                  "kk": "ҚР Президенті Әкімшілігі"
+                },
+                "photo": "/img/plenary/Аида Балаева.webp",
+                "type": "govt"
+              },
+              {
+                "name": {
+                  "ru": "Эльвира Азимова",
+                  "en": "Elvira Azimova",
+                  "kk": "Эльвира Азимова"
+                },
+                "role": {
+                  "ru": "Председатель Конституционного Суда РК",
+                  "en": "Chair, Constitutional Court",
+                  "kk": "ҚР Конституциялық Сотының төрайымы"
+                },
+                "org": {
+                  "ru": "Конституционный Суд РК",
+                  "en": "Constitutional Court",
+                  "kk": "ҚР Конституциялық Соты"
+                },
+                "photo": "/img/plenary/Эльвира Азимова.jpg",
+                "type": "govt"
+              },
+              {
+                "name": {
+                  "ru": "Ажар Гиният",
+                  "en": "Azhar Giniyat",
+                  "kk": "Ажар Гиният"
+                },
+                "role": {
+                  "ru": "Министр здравоохранения РК",
+                  "en": "Minister of Health",
+                  "kk": "ҚР Денсаулық сақтау министрі"
+                },
+                "org": {
+                  "ru": "Министерство здравоохранения РК",
+                  "en": "Ministry of Health",
+                  "kk": "ҚР Денсаулық сақтау министрлігі"
+                },
+                "photo": "/img/plenary/Ажар Гиният.jpg",
+                "type": "govt"
+              },
+              {
+                "name": {
+                  "ru": "Мишель Симмонс",
+                  "en": "Michelle Simmons",
+                  "kk": "Мишель Симмонс"
+                },
+                "role": {
+                  "ru": "Президент Microsoft в ЦЕ и ЦА",
+                  "en": "President, Microsoft CE & CA",
+                  "kk": "Microsoft ОЕ және ОА президенті"
+                },
+                "org": {
+                  "ru": "Microsoft",
+                  "en": "Microsoft",
+                  "kk": "Microsoft"
+                },
+                "photo": "/img/plenary/Мишель Симмонс.jpg",
+                "type": "corp"
+              }
+            ]
+          }
+        },
+        {
+          "id": "h12",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h13",
+          "type": "HomeInitiatives",
+          "data": {
+            "sectionLabel": {
+              "ru": "ИНИЦИАТИВЫ",
+              "en": "INITIATIVES",
+              "kk": "БАСТАМАЛАР"
+            },
+            "sectionTitle": {
+              "ru": "Наши инициативы",
+              "en": "Our Initiatives",
+              "kk": "Біздің бастамалар"
+            },
+            "supportTitle": {
+              "ru": "Шесть направлений деятельности GBWC — от аналитики и образования до культурной дипломатии",
+              "en": "Six GBWC focus areas — from analytics and education to cultural diplomacy",
+              "kk": "GBWC қызметінің алты бағыты — аналитикадан және білімнен мәдени дипломатияға дейін"
+            },
+            "allBtn": {
+              "ru": "Все инициативы",
+              "en": "All Initiatives",
+              "kk": "Барлық бастамалар"
+            }
+          }
+        },
+        {
+          "id": "h14",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h15",
+          "type": "HomePartners",
+          "data": {
+            "sectionLabel": {
+              "ru": "ПАРТНЕРЫ",
+              "en": "PARTNERS",
+              "kk": "СЕРІКТЕСТЕР"
+            },
+            "sectionTitle": {
+              "ru": "Партнеры и участники",
+              "en": "Partners & Members",
+              "kk": "Серіктестер мен қатысушылар"
+            },
+            "sectionSubtext": {
+              "ru": "Глобальная сеть организаций, поддерживающих инициативы Совета по всему миру",
+              "en": "A global network of organisations supporting Council initiatives worldwide",
+              "kk": "Кеңес бастамаларын бүкіл әлемде қолдайтын ұйымдардың жаһандық желісі"
+            },
+            "intlLbl": {
+              "ru": "Международные",
+              "en": "International",
+              "kk": "Халықаралық"
+            },
+            "corpLbl": {
+              "ru": "Корпоративные",
+              "en": "Corporate",
+              "kk": "Корпоративтік"
+            },
+            "natlLbl": {
+              "ru": "Национальные",
+              "en": "National",
+              "kk": "Ұлттық"
+            }
+          }
+        },
+        {
+          "id": "h16",
+          "type": "Sep",
+          "data": {}
+        },
+        {
+          "id": "h17",
+          "type": "HomeCoop",
+          "data": {
+            "label": {
+              "ru": "СОТРУДНИЧЕСТВО",
+              "en": "COOPERATION",
+              "kk": "ЫНТЫМАҚТАСТЫҚ"
+            },
+            "title": {
+              "ru": "Стать частью сообщества",
+              "en": "Become Part of the Community",
+              "kk": "Қоғамдастықтың бір бөлігі болыңыз"
+            },
+            "text": {
+              "ru": "Присоединяйтесь к инициативам Глобального Совета женщин-руководителей. Откройте новые возможности для развития бизнеса и международных партнерств.",
+              "en": "Join the initiatives of the Global Businesswomen Council. Discover new opportunities for business development and international partnerships.",
+              "kk": "Жаһандық Іскер Әйелдер Кеңесінің бастамаларына қосылыңыз. Бизнесті дамыту мен халықаралық серіктестіктің жаңа мүмкіндіктерін ашыңыз."
+            },
+            "btn1": {
+              "ru": "Связаться с нами",
+              "en": "Contact Us",
+              "kk": "Бізбен байланысыңыз"
+            },
+            "btn2": {
+              "ru": "Стать партнером",
+              "en": "Become a Partner",
+              "kk": "Серіктес болу"
+            },
+            "tags": [
+              {
+                "text": {
+                  "ru": "International Organisations",
+                  "en": "International Organisations",
+                  "kk": "Халықаралық ұйымдар"
+                }
+              },
+              {
+                "text": {
+                  "ru": "Государственные институты",
+                  "en": "Government Institutions",
+                  "kk": "Мемлекеттік институттар"
+                }
+              },
+              {
+                "text": {
+                  "ru": "Корпорации",
+                  "en": "Corporations",
+                  "kk": "Корпорациялар"
+                }
+              },
+              {
+                "text": {
+                  "ru": "Финансовые институты",
+                  "en": "Financial Institutions",
+                  "kk": "Қаржы институттары"
+                }
+              },
+              {
+                "text": {
+                  "ru": "Экспертное сообщество",
+                  "en": "Expert Community",
+                  "kk": "Сарапшылар қауымдастығы"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "created_at": "2026-04-24T22:23:20.071Z",
+    "updated_at": "2026-04-28T06:24:44.590Z"
+  },
+  {
+    "_id": "2951073a-b79e-4c4c-b02f-671866d4c101",
+    "id": "2951073a-b79e-4c4c-b02f-671866d4c101",
+    "key": "about",
+    "content": {
+      "puckData": {
+        "root": {
+          "props": {
+            "title": "about"
+          }
+        },
+        "content": [
+          {
+            "type": "Hero",
+            "props": {
+              "label": {
+                "ru": "GBWC",
+                "en": "GBWC",
+                "kk": "GBWC"
+              },
+              "title": {
+                "ru": "О Совете",
+                "en": "About",
+                "kk": "Кеңес туралы"
+              },
+              "titleEmphasis": {
+                "ru": "",
+                "en": "",
+                "kk": ""
+              },
+              "desc": {
+                "ru": "Global Businesswomen Council — международный совет, содействующий развитию сотрудничества между государственными институтами, международными организациями и деловым сообществом.",
+                "en": "Global Businesswomen Council is an international council promoting cooperation between government institutions, international organisations and the business community.",
+                "kk": "Global Businesswomen Council — мемлекеттік институттар, халықаралық ұйымдар мен іскерлік қауымдастық арасындағы ынтымақтастықты дамытатын халықаралық кеңес."
+              },
+              "id": "Hero-a1"
+            }
+          },
+          {
+            "type": "AboutMandate",
+            "props": {
+              "eyebrow": {
+                "ru": "О СОВЕТЕ",
+                "en": "ABOUT",
+                "kk": "КЕҢЕС ТУРАЛЫ"
+              },
+              "title": {
+                "ru": "Институциональный мандат",
+                "en": "Institutional Mandate",
+                "kk": "Институциональды мандат"
+              },
+              "paragraphs": [
+                {
+                  "text": {
+                    "ru": "GBWC осуществляет деятельность по развитию международного сотрудничества в предпринимательстве, социальной политике, образовании и культурном взаимодействии.",
+                    "en": "GBWC conducts activities to develop international cooperation in entrepreneurship, social policy, education and cultural interaction.",
+                    "kk": "GBWC кәсіпкерлік, әлеуметтік саясат, білім беру саласындағы халықаралық ынтымақтастықты дамытуға бағытталған қызметті жүзеге асырады."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Совет объединяет государственные институты, международные организации и деловое сообщество для обсуждения актуальных вопросов экономического развития.",
+                    "en": "The Council brings together government institutions, international organisations and the business community to form joint initiatives.",
+                    "kk": "Кеңес мемлекеттік институттар мен іскерлік қауымдастық өкілдерін бірлескен бастамалар қалыптастыру үшін біріктіреді."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Деятельность направлена на развитие международного диалога и расширение экономических возможностей.",
+                    "en": "Activities focus on developing international dialogue and expanding economic opportunities.",
+                    "kk": "Кеңестің қызметі халықаралық диалогты дамытуға және экономикалық мүмкіндіктерді кеңейтуге бағытталған."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Совет взаимодействует с государственными органами, международными финансовыми институтами и представителями бизнеса.",
+                    "en": "The Council works with government bodies, international financial institutions and business representatives.",
+                    "kk": "Кеңес мемлекеттік органдармен, халықаралық қаржы институттарымен және бизнес өкілдерімен өзара іс-қимыл жасайды."
+                  }
+                }
+              ],
+              "cards": [
+                {
+                  "label": {
+                    "ru": "Год основания",
+                    "en": "Founded",
+                    "kk": "Құрылған жылы"
+                  },
+                  "num": "2023",
+                  "sub": {
+                    "ru": "Международный совет",
+                    "en": "International Council",
+                    "kk": "Халықаралық кеңес"
+                  },
+                  "text": {
+                    "ru": "",
+                    "en": "",
+                    "kk": ""
+                  }
+                }
+              ],
+              "id": "AboutMandate-a2"
+            }
+          },
+          {
+            "type": "AboutDirections",
+            "props": {
+              "eyebrow": {
+                "ru": "ДЕЯТЕЛЬНОСТЬ",
+                "en": "ACTIVITY",
+                "kk": "ҚЫЗМЕТ"
+              },
+              "title": {
+                "ru": "Направления",
+                "en": "Focus Areas",
+                "kk": "Бағыттар"
+              },
+              "items": [
+                {
+                  "n": "01",
+                  "title": {
+                    "ru": "Международное сотрудничество и дипломатия",
+                    "en": "International Cooperation and Diplomacy",
+                    "kk": "Халықаралық ынтымақтастық және дипломатия"
+                  },
+                  "desc": {
+                    "ru": "Развитие взаимодействия с международными организациями. Совет объединяет участников из 13+ стран.",
+                    "en": "Developing interaction with international organisations. The Council unites participants from 13+ countries.",
+                    "kk": "13+ елден қатысушыларды біріктіреді."
+                  }
+                },
+                {
+                  "n": "02",
+                  "title": {
+                    "ru": "Развитие женского предпринимательства",
+                    "en": "Women's Entrepreneurship Development",
+                    "kk": "Әйелдер кәсіпкерлігін дамыту"
+                  },
+                  "desc": {
+                    "ru": "Реализация программ G-Index Initiative, G-Index Academy.",
+                    "en": "Implementing G-Index Initiative, G-Index Academy programmes.",
+                    "kk": "G-Index Initiative, G-Index Academy бағдарламалары."
+                  }
+                },
+                {
+                  "n": "03",
+                  "title": {
+                    "ru": "Социальные инвестиции и партнерства",
+                    "en": "Social Investments and Partnerships",
+                    "kk": "Әлеуметтік инвестициялар және серіктестік"
+                  },
+                  "desc": {
+                    "ru": "Пилотный проект «Центр поддержки семьи» совместно с GGGI в регионах Казахстана.",
+                    "en": "GBWC operates pilot Family Support Centres in Kazakhstan regions.",
+                    "kk": "Отбасын қолдау орталықтарының пилоттық жобасы."
+                  }
+                },
+                {
+                  "n": "04",
+                  "title": {
+                    "ru": "Культурное взаимодействие",
+                    "en": "Cultural Interaction",
+                    "kk": "Мәдени өзара іс-қимыл"
+                  },
+                  "desc": {
+                    "ru": "Укрепление международного диалога и продвижение наследия на международном уровне.",
+                    "en": "Strengthening international cultural dialogue and diplomacy.",
+                    "kk": "Халықаралық диалогты нығайту және мұраны жаһандық деңгейде ілгерілету."
+                  }
+                }
+              ],
+              "id": "AboutDirections-a3"
+            }
+          },
+          {
+            "type": "AboutTimeline",
+            "props": {
+              "eyebrow": {
+                "ru": "ИСТОРИЯ",
+                "en": "HISTORY",
+                "kk": "ТАРИХ"
+              },
+              "title": {
+                "ru": "Хронология",
+                "en": "Timeline",
+                "kk": "Хронология"
+              },
+              "items": [
+                {
+                  "year": "2023",
+                  "title": {
+                    "ru": "Основание Совета",
+                    "en": "Founding",
+                    "kk": "Кеңестің құрылуы"
+                  },
+                  "desc": {
+                    "ru": "7 июня 2023 — I Пленарное заседание в рамках 35-го заседания СИИ при Президенте РК. 22 участника из числа руководителей глобальных организаций.",
+                    "en": "June 7, 2023 — 1st Plenary Session at the 35th FIC Plenary. 22 participants from global organisations.",
+                    "kk": "2023 жылы 7 маусымда I Пленарлық отырыс өтті."
+                  }
+                },
+                {
+                  "year": "2024",
+                  "title": {
+                    "ru": "Расширение деятельности",
+                    "en": "Expansion",
+                    "kk": "Қызметті кеңейту"
+                  },
+                  "desc": {
+                    "ru": "31 октября 2024 — II Пленарное заседание во Дворце Независимости.",
+                    "en": "October 31, 2024 — 2nd Plenary Session.",
+                    "kk": "II Пленарлық отырыс."
+                  }
+                },
+                {
+                  "year": "2025",
+                  "title": {
+                    "ru": "Международное признание",
+                    "en": "International Recognition",
+                    "kk": "Халықаралық тану"
+                  },
+                  "desc": {
+                    "ru": "24 июня 2025 — III Пленарное заседание. Подписаны меморандумы с тремя министерствами. Хор КазНУИ выступил в Ватикане.",
+                    "en": "June 24, 2025 — 3rd Plenary Session. MoUs with three Kazakhstan ministries. KazNUI choir at Vatican.",
+                    "kk": "III Пленарлық отырыс. Меморандумдарға қол қойылды."
+                  }
+                },
+                {
+                  "year": "2026",
+                  "title": {
+                    "ru": "Стратегическое развитие",
+                    "en": "Strategic Development",
+                    "kk": "Стратегиялық даму"
+                  },
+                  "desc": {
+                    "ru": "Развитие G-Index Hub. Реализация партнёрских проектов. Подготовка IV Пленарного заседания.",
+                    "en": "G-Index Hub development. Partnership projects. Preparation for 4th Plenary Session.",
+                    "kk": "G-Index Hub. IV Пленарлық отырысқа дайындық."
+                  }
+                }
+              ],
+              "id": "AboutTimeline-a4"
+            }
+          },
+          {
+            "type": "AboutPrinciples",
+            "props": {
+              "eyebrow": {
+                "ru": "ПРИНЦИПЫ",
+                "en": "PRINCIPLES",
+                "kk": "ҚАҒИДАТТАР"
+              },
+              "title": {
+                "ru": "Основы деятельности",
+                "en": "Foundations",
+                "kk": "Негіздер"
+              },
+              "items": [
+                {
+                  "n": "1",
+                  "title": {
+                    "ru": "Международное сотрудничество",
+                    "en": "International Cooperation",
+                    "kk": "Халықаралық ынтымақтастық"
+                  },
+                  "desc": {
+                    "ru": "Устойчивые механизмы взаимодействия между государственными структурами и деловым сообществом.",
+                    "en": "Sustainable interaction between government structures and business community.",
+                    "kk": "Тұрақты өзара іс-қимыл механизмдерін дамыту."
+                  }
+                },
+                {
+                  "n": "2",
+                  "title": {
+                    "ru": "Институциональное партнёрство",
+                    "en": "Institutional Partnership",
+                    "kk": "Институциональды серіктестік"
+                  },
+                  "desc": {
+                    "ru": "Сотрудничество с ведущими международными организациями на равноправной основе.",
+                    "en": "Cooperation with leading international organisations on equal terms.",
+                    "kk": "Халықаралық ұйымдармен теңдік негізінде ынтымақтасу."
+                  }
+                },
+                {
+                  "n": "3",
+                  "title": {
+                    "ru": "Открытый диалог",
+                    "en": "Open Dialogue",
+                    "kk": "Ашық диалог"
+                  },
+                  "desc": {
+                    "ru": "Свободный обмен мнениями между участниками из различных стран.",
+                    "en": "Free exchange of views between participants from different countries.",
+                    "kk": "Қатысушылар арасында пікір алмасу."
+                  }
+                },
+                {
+                  "n": "4",
+                  "title": {
+                    "ru": "Развитие предпринимательства",
+                    "en": "Entrepreneurship Development",
+                    "kk": "Кәсіпкерлікті дамыту"
+                  },
+                  "desc": {
+                    "ru": "Поддержка инициатив по расширению экономических возможностей.",
+                    "en": "Supporting initiatives for economic opportunity expansion.",
+                    "kk": "Экономикалық мүмкіндіктерді кеңейту."
+                  }
+                },
+                {
+                  "n": "5",
+                  "title": {
+                    "ru": "Социальная ответственность",
+                    "en": "Social Responsibility",
+                    "kk": "Әлеуметтік жауапкершілік"
+                  },
+                  "desc": {
+                    "ru": "Содействие проектам по повышению качества жизни и поддержке семей.",
+                    "en": "Promoting projects for quality of life improvement.",
+                    "kk": "Өмір сапасын арттыру жобаларын жеделдету."
+                  }
+                }
+              ],
+              "id": "AboutPrinciples-a5"
+            }
+          },
+          {
+            "type": "AboutFounder",
+            "props": {
+              "eyebrow": {
+                "ru": "ОСНОВАТЕЛЬ",
+                "en": "FOUNDER",
+                "kk": "НЕГІЗІН ҚАЛАУШЫ"
+              },
+              "name": {
+                "ru": "Жанна Амановна Байдашева",
+                "en": "Zhanna Amanovna Baidasheva",
+                "kk": "Жанна Амановна Байдашева"
+              },
+              "role": {
+                "ru": "Основатель Global Businesswomen Council",
+                "en": "Founder, Global Businesswomen Council",
+                "kk": "Global Businesswomen Council негізін қалаушы"
+              },
+              "photo": "/img/founders/zhanna_baidasheva.jpeg",
+              "bio": [
+                {
+                  "text": {
+                    "ru": "Эксперт в области международной экономики и инвестиционной политики с более чем 20-летним управленческим опытом. Выпускница РФМШ и программы «Болашак» со степенью магистра Queen Mary University of London (Инвестиции и финансы).",
+                    "en": "Zhanna Baidasheva holds a BSc from al-Farabi KazNU and an MSc from Queen Mary University of London (Bolashak Programme).",
+                    "kk": "Жанна Байдашева ҚазҰУ экономикалық кибернетика бакалавры және Лондон Queen Mary университетінің инвестиция магистрі."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Профессиональный путь Жанны включает стратегическую работу в Азиатском Банке Развития (ЦАРЭС) и Евразийском банке развития, а также ключевые позиции в государственном аппарате — от советника Министра экономики до инспектора Администрации Президента РК.",
+                    "en": "From 2004–2007, CAREC Coordinator at the Asian Development Bank. In 2007–2008, Senior Analyst at the Eurasian Development Bank.",
+                    "kk": "2004–2007 жылдары АДБ-да ЦАРЭС координаторы. 2007–2008 — Еуразиялық даму банкінің аналитигі."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "С 2012 года возглавляет Ассоциацию «Казахстанский Совет иностранных инвесторов» при Президенте РК, координируя диалог между государством и глобальным бизнесом. В 2022 году основала GBWC для продвижения интересов женщин-предпринимателей на международном уровне.",
+                    "en": "From 2009–2011, Advisor to the Minister of Economy. In 2011–2012, Inspector at the Presidential Administration.",
+                    "kk": "2009–2011 — ҚР Экономика министрінің Кеңесшісі. 2011–2012 — ҚР Президенті Әкімшілігінде инспектор."
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "В 2025 году по решению Главы государства вошла в состав Национальной комиссии по делам женщин и демографической политике. Также является членом Общественного совета при Министерстве науки и высшего образования РК, активно содействуя развитию научного потенциала и образовательных инициатив в Казахстане.",
+                    "en": "Since 2012, Director of the Kazakhstan Foreign Investors Council Association (AKSII). In 2023, founded GBWC.",
+                    "kk": "2012 жылдан ҚШИК Ассоциациясының директоры. 2023 жылы GBWC-ты құрды."
+                  }
+                }
+              ],
+              "points": [
+                {
+                  "text": {
+                    "ru": "International economic cooperation development",
+                    "en": "International economic cooperation development",
+                    "kk": "Халықаралық экономикалық ынтымақтастықты дамыту"
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Engagement with international financial institutions",
+                    "en": "Engagement with international financial institutions",
+                    "kk": "Халықаралық қаржы институттарымен өзара іс-қимыл"
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Entrepreneurship and investment cooperation",
+                    "en": "Entrepreneurship and investment cooperation",
+                    "kk": "Кәсіпкерлікті дамыту"
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Social and educational initiative support",
+                    "en": "Social and educational initiative support",
+                    "kk": "Әлеуметтік бастамаларды қолдау"
+                  }
+                },
+                {
+                  "text": {
+                    "ru": "Presidential Decree No. 893 (2025): appointed to National Commission on Women's Affairs",
+                    "en": "Presidential Decree No. 893 (2025): appointed to National Commission on Women's Affairs",
+                    "kk": "Президент жарлығы №893 (2025): Ұлттық комиссия мүшесі"
+                  }
+                }
+              ],
+              "contactEmail": "info@gbwc.network",
+              "contactPhone": "+7....",
+              "id": "AboutFounder-a6"
+            }
+          },
+          {
+            "type": "AboutSecretariat",
+            "props": {
+              "eyebrow": {
+                "ru": "СЕКРЕТАРИАТ",
+                "en": "SECRETARIAT",
+                "kk": "ХАТШЫЛЫҚ"
+              },
+              "title": {
+                "ru": "Команда",
+                "en": "Team",
+                "kk": "Команда"
+              },
+              "members": [
+                {
+                  "name": {
+                    "ru": "Бибигуль Аманбаевна Масербаева",
+                    "en": "Bibigul Amanbaevna Maserbaeva",
+                    "kk": "Бибігүл Аманбайқызы Масербаева"
+                  },
+                  "role": {
+                    "ru": "Руководитель Секретариата",
+                    "en": "Head of Secretariat",
+                    "kk": "Хатшылық жетекшісі"
+                  },
+                  "photo": ""
+                },
+                {
+                  "name": {
+                    "ru": "Сана Кумаргазы",
+                    "en": "Sana Kumargazy",
+                    "kk": "Сана Кумаргазы"
+                  },
+                  "role": {
+                    "ru": "Ассистент Секретариата",
+                    "en": "Secretariat Assistant",
+                    "kk": "Хатшылық ассистенті"
+                  },
+                  "photo": ""
+                }
+              ],
+              "id": "AboutSecretariat-a7"
+            }
+          },
+          {
+            "type": "AboutMission",
+            "props": {
+              "eyebrow": {
+                "ru": "МИССИЯ",
+                "en": "MISSION",
+                "kk": "МИССИЯ"
+              },
+              "mission": {
+                "ru": "Миссия GBWC — содействие развитию международного сотрудничества и укреплению взаимодействия между государственными институтами, международными организациями и деловым сообществом.",
+                "en": "The mission of GBWC is to promote international cooperation and strengthen interaction between government institutions, international organisations and the business community.",
+                "kk": "GBWC миссиясы — мемлекеттік институттар, халықаралық ұйымдар мен іскерлік қауымдастық арасындағы ынтымақтастықтың дамуына жәрдемдесу."
+              },
+              "vision": {
+                "ru": "Совет развивает устойчивые механизмы международного взаимодействия, способствующие расширению предпринимательских возможностей по всему миру.",
+                "en": "The Council develops sustainable international interaction mechanisms that expand entrepreneurial opportunities worldwide.",
+                "kk": "Кеңес кәсіпкерлік мүмкіндіктерді кеңейтуге ықпал ететін тұрақты халықаралық өзара іс-қимыл механизмдерін дамытады."
+              },
+              "values": [
+                {
+                  "title": {
+                    "ru": "Международное сотрудничество",
+                    "en": "International Cooperation",
+                    "kk": "Халықаралық ынтымақтастық"
+                  },
+                  "text": {
+                    "ru": "Взаимодействие государственных институтов и делового сообщества.",
+                    "en": "Interaction between government institutions and business community.",
+                    "kk": "Мемлекеттік институттар мен іскерлік қауымдастық арасындағы өзара іс-қимыл."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Институциональное партнёрство",
+                    "en": "Institutional Partnership",
+                    "kk": "Институциональды серіктестік"
+                  },
+                  "text": {
+                    "ru": "Сотрудничество с ведущими международными структурами.",
+                    "en": "Cooperation with leading international structures.",
+                    "kk": "Халықаралық құрылымдармен ынтымақтасу."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Открытый диалог",
+                    "en": "Open Dialogue",
+                    "kk": "Ашық диалог"
+                  },
+                  "text": {
+                    "ru": "Обмен опытом между участниками разных стран.",
+                    "en": "Experience exchange between participants.",
+                    "kk": "Тәжірибе алмасу."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Развитие предпринимательства",
+                    "en": "Entrepreneurship Development",
+                    "kk": "Кәсіпкерлікті дамыту"
+                  },
+                  "text": {
+                    "ru": "Расширение экономических возможностей.",
+                    "en": "Expanding economic opportunities.",
+                    "kk": "Экономикалық мүмкіндіктерді кеңейту."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Социальная ответственность",
+                    "en": "Social Responsibility",
+                    "kk": "Әлеуметтік жауапкершілік"
+                  },
+                  "text": {
+                    "ru": "Повышение качества жизни и поддержка семей.",
+                    "en": "Quality of life improvement and family support.",
+                    "kk": "Өмір сапасын арттыру."
+                  }
+                }
+              ],
+              "id": "AboutMission-a8"
+            }
+          },
+          {
+            "type": "AboutCTA",
+            "props": {
+              "title": {
+                "ru": "",
+                "en": "",
+                "kk": ""
+              },
+              "text": {
+                "ru": "Совет открыт для сотрудничества с международными организациями, государственными институтами и бизнес-сообществом.",
+                "en": "The Council is open to cooperation with international organisations, government institutions and the business community.",
+                "kk": "Кеңес халықаралық ұйымдармен және іскерлік қауымдастықпен ынтымақтасуға ашық."
+              },
+              "btn": {
+                "ru": "Инициативы",
+                "en": "Initiatives",
+                "kk": "Бастамалар"
+              },
+              "email": "info@gbwc.network",
+              "id": "AboutCTA-a9"
+            }
+          }
+        ],
+        "zones": {}
+      }
+    },
+    "created_at": "2026-04-24T22:23:20.077Z",
+    "updated_at": "2026-04-28T06:32:04.697Z"
+  },
+  {
+    "_id": "93daabea-1868-40a3-9bd1-6b9e4041552b",
+    "id": "93daabea-1868-40a3-9bd1-6b9e4041552b",
+    "key": "media",
+    "content": {
+      "blocks": [
+        {
+          "id": "m1",
+          "type": "Hero",
+          "data": {
+            "label": {
+              "ru": "GBWC",
+              "en": "GBWC",
+              "kk": "GBWC"
+            },
+            "title": {
+              "ru": "Медиа",
+              "en": "Media",
+              "kk": "Медиа"
+            },
+            "titleEmphasis": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "desc": {
+              "ru": "Фото и видео галерея",
+              "en": "Photo and video gallery",
+              "kk": "Фото және бейне галерея"
+            }
+          }
+        },
+        {
+          "id": "m2",
+          "type": "MediaContent",
+          "data": {}
+        }
+      ]
+    },
+    "created_at": "2026-04-24T22:23:20.081Z",
+    "updated_at": "2026-04-28T06:24:44.600Z"
+  },
+  {
+    "_id": "81644764-db1f-4d35-8357-d712b870f2f5",
+    "id": "81644764-db1f-4d35-8357-d712b870f2f5",
+    "key": "contacts",
+    "content": {
+      "puckData": {
+        "root": {
+          "props": {
+            "title": "contacts"
+          }
+        },
+        "content": [
+          {
+            "type": "Hero",
+            "props": {
+              "label": {
+                "ru": "CONTACTS",
+                "en": "CONTACTS",
+                "kk": "БАЙЛАНЫС"
+              },
+              "title": {
+                "ru": "Свяжитесь с",
+                "en": "Get in",
+                "kk": "Бізбен"
+              },
+              "titleEmphasis": {
+                "ru": "нами",
+                "en": "touch",
+                "kk": "хабарласыңыз"
+              },
+              "desc": {
+                "ru": "Мы рады партнёрству, заявкам на членство и запросам СМИ",
+                "en": "We welcome partnerships, membership inquiries, and media requests",
+                "kk": "Серіктестік, мүшелік өтінімдер мен БАҚ сұраулары бойынша ашықпыз"
+              },
+              "id": "Hero-c1"
+            }
+          },
+          {
+            "type": "ContactsContent",
+            "props": {
+              "infoTitle": {
+                "ru": "Контактная информация",
+                "en": "Contact Information",
+                "kk": "Байланыс ақпараты"
+              },
+              "infoDesc": {
+                "ru": "Секретариат GBWC находится в Астане. Открыты для сотрудничества с деловыми женщинами по всему миру.",
+                "en": "The GBWC Secretariat is located in Astana. Open to cooperation with businesswomen worldwide.",
+                "kk": "GBWC Хатшылығы Астанада орналасқан. Бүкіл әлемдегі іскер әйелдермен ынтымақтастыққа ашық."
+              },
+              "addressLabel": {
+                "ru": "АДРЕС",
+                "en": "ADDRESS",
+                "kk": "МЕКЕНЖАЙ"
+              },
+              "addressVal": {
+                "ru": "ул. Достык 16, Talan Towers, Астана",
+                "en": "16 Dostyk St., Talan Towers, Astana",
+                "kk": "Достық к-сі 16, Talan Towers, Астана"
+              },
+              "phoneLabel": {
+                "ru": "ТЕЛЕФОН",
+                "en": "PHONE",
+                "kk": "ТЕЛЕФОН"
+              },
+              "emailLabel": {
+                "ru": "EMAIL",
+                "en": "EMAIL",
+                "kk": "EMAIL"
+              },
+              "socialLabel": {
+                "ru": "СОЦИАЛЬНЫЕ СЕТИ",
+                "en": "SOCIAL",
+                "kk": "ӘЛЕУМЕТТІК ЖЕЛІЛЕР"
+              },
+              "persons": [
+                {
+                  "name": {
+                    "ru": "",
+                    "en": ""
+                  }
+                },
+                {}
+              ],
+              "formTitle": {
+                "ru": "Отправить сообщение",
+                "en": "Send a message",
+                "kk": "Хабарлама жіберу"
+              },
+              "success": {
+                "ru": "Спасибо! Сообщение отправлено.",
+                "en": "Thank you! Your message has been sent.",
+                "kk": "Рақмет! Хабарлама жіберілді."
+              },
+              "error": {
+                "ru": "Ошибка. Попробуйте ещё раз.",
+                "en": "Failed to send. Please try again.",
+                "kk": "Қате. Қайталап көріңіз."
+              },
+              "sending": {
+                "ru": "Отправка…",
+                "en": "Sending…",
+                "kk": "Жіберілуде…"
+              },
+              "send": {
+                "ru": "Отправить сообщение",
+                "en": "Send Message",
+                "kk": "Хабарлама жіберу"
+              },
+              "fields": {
+                "name": {
+                  "ru": "ИМЯ",
+                  "en": "NAME",
+                  "kk": "АТЫ"
+                },
+                "namePh": {
+                  "ru": "Ваше имя",
+                  "en": "Your name",
+                  "kk": "Сіздің атыңыз"
+                },
+                "company": {
+                  "ru": "ОРГАНИЗАЦИЯ",
+                  "en": "COMPANY",
+                  "kk": "ҰЙЫМ"
+                },
+                "companyPh": {
+                  "ru": "Название организации",
+                  "en": "Company name",
+                  "kk": "Ұйым атауы"
+                },
+                "email": {
+                  "ru": "EMAIL",
+                  "en": "EMAIL",
+                  "kk": "EMAIL"
+                },
+                "emailPh": {
+                  "ru": "email@example.com",
+                  "en": "email@example.com",
+                  "kk": "email@example.com"
+                },
+                "subject": {
+                  "ru": "ТЕМА",
+                  "en": "SUBJECT",
+                  "kk": "ТАҚЫРЫП"
+                },
+                "subjectPh": {
+                  "ru": "Тема сообщения",
+                  "en": "Select subject",
+                  "kk": "Тақырыпты таңдаңыз"
+                },
+                "message": {
+                  "ru": "СООБЩЕНИЕ",
+                  "en": "MESSAGE",
+                  "kk": "ХАБАРЛАМА"
+                },
+                "messagePh": {
+                  "ru": "Ваше сообщение...",
+                  "en": "Your message...",
+                  "kk": "Сіздің хабарламаңыз..."
+                }
+              },
+              "id": "ContactsContent-c2"
+            }
+          }
+        ],
+        "zones": {}
+      }
+    },
+    "created_at": "2026-04-24T22:23:20.084Z",
+    "updated_at": "2026-04-28T09:00:57.217Z"
+  },
+  {
+    "_id": "4d6061d2-2bc2-4679-854c-a7b266901d2b",
+    "id": "4d6061d2-2bc2-4679-854c-a7b266901d2b",
+    "key": "partners",
+    "content": {
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "Hero",
+          "data": {
+            "label": {
+              "ru": "GBWC",
+              "en": "GBWC",
+              "kk": "GBWC"
+            },
+            "title": {
+              "ru": "Партнеры",
+              "en": "Partners",
+              "kk": "Серіктестер"
+            },
+            "titleEmphasis": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "desc": {
+              "ru": "Глобальная сеть организаций, поддерживающих инициативы Совета",
+              "en": "A global network of organisations supporting Council initiatives",
+              "kk": "Кеңес бастамаларын қолдайтын ұйымдардың жаһандық желісі"
+            }
+          }
+        },
+        {
+          "id": "p2",
+          "type": "PartnersContent",
+          "data": {}
+        }
+      ]
+    },
+    "created_at": "2026-04-24T22:23:20.086Z",
+    "updated_at": "2026-04-28T06:24:44.606Z"
+  },
+  {
+    "_id": "3b061f83-6d90-48d6-9f70-b7037133b802",
+    "id": "3b061f83-6d90-48d6-9f70-b7037133b802",
+    "key": "founders",
+    "content": {
+      "blocks": [
+        {
+          "id": "f1",
+          "type": "Hero",
+          "data": {
+            "label": {
+              "ru": "GBWC",
+              "en": "GBWC",
+              "kk": "GBWC"
+            },
+            "title": {
+              "ru": "Лидеры",
+              "en": "Leaders",
+              "kk": "Көшбасшылар"
+            },
+            "titleEmphasis": {
+              "ru": "",
+              "en": "",
+              "kk": ""
+            },
+            "desc": {
+              "ru": "Лидеры и основатели",
+              "en": "Leaders and Founders",
+              "kk": "Көшбасшылар мен негізін қалаушылар"
+            }
+          }
+        },
+        {
+          "id": "f2",
+          "type": "FoundersContent",
+          "data": {}
+        }
+      ]
+    },
+    "created_at": "2026-04-24T22:25:21.704Z",
+    "updated_at": "2026-04-28T06:24:44.614Z"
+  }
+]

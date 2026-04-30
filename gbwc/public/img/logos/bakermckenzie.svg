@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <rect width="160" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="8" height="40" rx="2" fill="#0047BB"/>
+  <rect x="16" y="10" width="8" height="40" rx="2" fill="#0047BB"/>
+  <text x="32" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0047BB" dominant-baseline="middle">Baker</text>
+  <text x="32" y="46" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0047BB">McKenzie</text>
+</svg>

@@ -1,0 +1,31 @@
+/* HomeGallery */
+.home-gallery { background:#ffffff; padding:var(--sp-section) var(--container-pad); opacity:0; transform:translateY(24px); transition:opacity .9s cubic-bezier(.22,1,.36,1), transform .9s cubic-bezier(.22,1,.36,1); }
+.home-gallery.hg-in { opacity:1; transform:none; }
+.hg-inner { max-width:var(--container-w); margin:0 auto; }
+
+.hg-header { margin-bottom:32px; }
+.hg-label { display:flex; align-items:center; gap:10px; font-size:11px; font-weight:700; letter-spacing:.28em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
+.hg-label-line { display:inline-block; width:24px; height:1px; background:linear-gradient(90deg,var(--gold),var(--gold2)); }
+.hg-title { font-size:clamp(1.8rem,3.2vw,3rem); font-weight:200; color:#0d1b3e; line-height:1.15; letter-spacing:-.02em; margin-bottom:8px; }
+.hg-sub { font-size:.88rem; color:rgba(13,27,62,.42); }
+
+/* Filter pills */
+.hg-filters { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:32px; }
+.hg-filter-btn { display:inline-flex; align-items:center; padding:9px 20px; border-radius:var(--r-pill); border:1px solid var(--border); background:transparent; font-size:.78rem; font-weight:500; color:rgba(13,27,62,.55); cursor:pointer; transition:all .22s; }
+.hg-filter-btn:hover { border-color:rgba(13,27,62,.3); color:#0d1b3e; background:rgba(13,27,62,.03); }
+.hg-filter-btn.active { background:#0d1b3e; border-color:#0d1b3e; color:#ffffff; }
+
+/* Media tile grid */
+.hg-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:var(--gap); }
+.hg-tile { border-radius:var(--r-m); overflow:hidden; position:relative; background:rgba(13,27,62,.06); cursor:pointer; }
+.hg-tile--wide  { aspect-ratio:16/10; } .hg-tile--std { aspect-ratio:4/3; } .hg-tile--thumb { aspect-ratio:3/2; }
+.hg-tile--featured { grid-column:span 2; }
+.hg-tile img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .55s cubic-bezier(.22,1,.36,1); }
+.hg-tile:hover img { transform:scale(1.04); }
+.hg-tile-overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(13,27,62,.55) 0%,transparent 60%); opacity:0; transition:opacity .35s; display:flex; align-items:flex-end; padding:16px; }
+.hg-tile:hover .hg-tile-overlay { opacity:1; }
+.hg-tile-caption { font-size:.78rem; font-weight:500; color:#ffffff; }
+.hg-more { text-align:center; margin-top:40px; }
+
+@media (max-width:900px) { .hg-grid { grid-template-columns:repeat(2,1fr); } .hg-tile--featured { grid-column:span 1; } }
+@media (max-width:560px) { .hg-grid { grid-template-columns:1fr; } }

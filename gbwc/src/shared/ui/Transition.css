@@ -1,0 +1,65 @@
+/* ══════════════════════════════════════
+   TRANSITION BANDS
+   ══════════════════════════════════════ */
+
+.transition-band {
+  position: relative;
+  z-index: 2;
+  padding: 48px 0 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  overflow: hidden;
+}
+
+/* Hero → Plenary: dark to white */
+.transition-band--hero-plenary {
+  background: linear-gradient(to bottom, #0c0f1a 0%, #1a1a1a 60%, #ffffff 100%);
+}
+
+/* Plenary → G-Index */
+.transition-band--plenary-gindex {
+  background: linear-gradient(to top, #ffffff 67%, #ffffff 100%);
+  -webkit-backdrop-filter: blur(60px);
+  backdrop-filter: blur(60px);
+}
+
+/* G-Index → Footer */
+.transition-band--gindex-footer {
+  background: linear-gradient(to top, #06101f 40%, #ffffff 100%);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}
+
+/* ── Gold gem divider (hero→plenary only) ── */
+.transition-band__divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.transition-band__line {
+  height: 1px;
+  width: 80px;
+}
+.transition-band__line--left  { background: linear-gradient(90deg, transparent, rgba(184,145,74,.5)); }
+.transition-band__line--right { background: linear-gradient(270deg, transparent, rgba(184,145,74,.5)); }
+.transition-band__glow {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px; height: 120px;
+  background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(184,145,74,.13) 0%, transparent 70%);
+  pointer-events: none;
+}
+.transition-gem {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: radial-gradient(circle, #e8c96e 0%, #b8914a 60%);
+  box-shadow: 0 0 0 3px rgba(184,145,74,.18), 0 0 18px rgba(184,145,74,.5);
+  animation: gemPulse 2.4s ease-in-out infinite;
+}
+@keyframes gemPulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(184,145,74,.18), 0 0 18px rgba(184,145,74,.5); }
+  50%       { box-shadow: 0 0 0 7px rgba(184,145,74,.08), 0 0 36px rgba(184,145,74,.8); }
+}

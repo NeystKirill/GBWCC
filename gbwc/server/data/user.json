@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "33035702-c9c6-40ab-b325-a367d2911b45",
+    "id": "33035702-c9c6-40ab-b325-a367d2911b45",
+    "email": "admin@gbwc.network",
+    "password": "$2a$12$QdDy.5vdptMPCnXCCvHWieIL6C0dDlJsFXoEYfxPSbif7eUPqv81G",
+    "role": "admin",
+    "created_at": "2026-04-23T19:31:03.423Z",
+    "updated_at": "2026-04-24T20:17:12.065Z",
+    "published": true,
+    "active": true
+  }
+]

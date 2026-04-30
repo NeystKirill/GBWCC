@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <rect width="140" height="60" fill="#ffffff"/>
+  <rect x="6" y="10" width="40" height="40" rx="3" fill="#4E2B7E"/>
+  <text x="10" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white">UN</text>
+  <text x="8" y="40" font-family="Arial,sans-serif" font-size="9" font-weight="400" fill="white">Women</text>
+  <text x="54" y="26" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4E2B7E">UN WOMEN</text>
+  <text x="54" y="39" font-family="Arial,sans-serif" font-size="7.5" fill="#666">United Nations</text>
+  <text x="54" y="50" font-family="Arial,sans-serif" font-size="7.5" fill="#666">Entity for Gender Equality</text>
+</svg>

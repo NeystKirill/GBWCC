@@ -1,0 +1,560 @@
+/* ═══════════════════════════════════════════════════════════════════
+   GBWC — UNIFIED GEOMETRY SYSTEM
+   shared/layout/layout.css
+
+   5 block types:
+     1. PageHero       — dark gradient header, all non-Home pages
+     2. StatsBelt      — horizontal stat strip
+     3. SplitSection   — two-zone: text + media/cards
+     4. CardGrid       — equal-card matrix
+     5. MediaCluster   — 1 big + 2 small tiles
+
+   3 radius tokens:
+     --r-s  6px    micro UI
+     --r-m  14px   cards
+     --r-l  22px   hero/large blocks
+
+   Grid: 12-col, 24px gap, 1320px container
+   Spacing: 3 levels — tight(48px), default(96px), hero(140px)
+═══════════════════════════════════════════════════════════════════ */
+
+/* ── Tokens ──────────────────────────────────────────────────────── */
+:root {
+  /* Radius */
+  --r-s: 6px;
+  --r-m: 14px;
+  --r-l: 22px;
+  --r-pill: 100px;
+
+  /* Container */
+  --container-w: 1320px;
+  --container-pad: clamp(20px, 5vw, 80px);
+
+  /* Spacing */
+  --sp-tight:   48px;
+  --sp-section: 96px;
+  /* --sp-hero removed: use --hero-pad-t / --hero-pad-b */
+
+  /* Col gap */
+  --gap: 24px;
+
+  /* Colors (layout-relevant) */
+  --hero-bg:    linear-gradient(160deg, #2a5080 0%, #1e3a60 40%, #1a3358 75%, #243f6a 100%);
+  --hero-line:  rgba(184, 145, 74, 0.025);
+  --gold:       #b8914a;
+  --gold2:      #e8c96e;
+  --navy:       #1a3358;
+  --surface:    #ffffff;
+  --surface-2:  #f7f5f1;
+  --border:     rgba(13, 27, 62, 0.08);
+  --border-gold: rgba(184, 145, 74, 0.3);
+}
+
+/* ── Container ───────────────────────────────────────────────────── */
+.lyt-container {
+  max-width: var(--container-w);
+  margin: 0 auto;
+  padding-inline: var(--container-pad);
+  width: 100%;
+}
+
+/* ── Section wrapper ─────────────────────────────────────────────── */
+.lyt-section {
+  padding-top: var(--sp-section);
+  padding-bottom: var(--sp-section);
+  position: relative;
+}
+.lyt-section--tight {
+  padding-top: var(--sp-tight);
+  padding-bottom: var(--sp-tight);
+}
+.lyt-section--hero {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.lyt-section--dark  { background: var(--navy); }
+.lyt-section--warm  { background: var(--surface-2); }
+.lyt-section--white { background: var(--surface); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   1. PAGE HERO — Universal entry block, geometry identical on all pages
+   Reference design: Partners page
+═══════════════════════════════════════════════════════════════════ */
+:root {
+  --hero-bg:    linear-gradient(160deg, #2a5080 0%, #1e3a60 40%, #1a3358 100%);
+  --hero-line:  rgba(184, 145, 74, 0.018);
+  /* Fixed header: top:18px + pill:~50px = 68px. Hero pad-t pushes title below nav. */
+  --nav-clear:  70px;      /* bottom of fixed nav bar */
+  --hero-h:     460px;     /* total hero height (title zone + stats belt excluded) */
+  --hero-pad-t: 100px;     /* top padding — eyebrow starts here, well below nav */
+  --hero-pad-b: 52px;      /* bottom padding above stats belt */
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  min-height: var(--hero-h);
+  height: var(--hero-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Dark background */
+.page-hero__bg {
+  position: absolute;
+  inset: 0;
+  background: var(--hero-bg);
+  z-index: 0;
+}
+
+/* Dark overlay — fades from transparent at top to semi-dark at bottom where text lives */
+.page-hero__bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 20, 45, 0)    0%,
+    rgba(10, 20, 45, 0)    30%,
+    rgba(10, 20, 45, 0.35) 65%,
+    rgba(10, 20, 45, 0.62) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Subtle grid texture — on ::after now, ::before is used for text overlay */
+.page-hero__bg-grid {
+  display: none; /* grid moved inline */
+}
+
+/* Gold top accent line */
+.page-hero__bg::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, var(--gold) 30%, var(--gold2) 50%, var(--gold) 70%, transparent 100%);
+  opacity: 0.55;
+}
+
+/* Content row: title LEFT | desc RIGHT — fixed geometry, identical on all pages */
+.page-hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: var(--container-w);
+  margin: 0 auto;
+  width: 100%;
+  /* Fixed padding: top space controlled by hero height, bottom fixed */
+  padding: var(--hero-pad-t) var(--container-pad) var(--hero-pad-b);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 64px;
+  /* Force content to bottom regardless of title length */
+  flex: 1;
+}
+
+/* Left: eyebrow + huge title */
+.page-hero__left {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+/* Right: description — vertically aligned to title bottom */
+.page-hero__right {
+  max-width: 360px;
+  flex-shrink: 0;
+  padding-bottom: 0;
+  align-self: flex-end;
+}
+
+/* Eyebrow label — gold, with leading line */
+.page-hero__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #d4a855;
+  margin-bottom: 20px;
+}
+.page-hero__label::before {
+  content: '';
+  display: block;
+  width: 28px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--gold), var(--gold2));
+  flex-shrink: 0;
+}
+
+/* Main title — fixed max size so long titles don't break layout */
+.page-hero__title {
+  font-size: clamp(2.6rem, 4.2vw, 4.6rem);
+  font-weight: 200;
+  color: #ffffff;
+  line-height: 0.95;
+  text-shadow: 0 2px 20px rgba(10,20,45,.4);
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+.page-hero__title em {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+/* Optional sub-label above desc */
+.page-hero__sub {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+/* Description */
+.page-hero__desc {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.8;
+  text-shadow: 0 1px 8px rgba(10,20,45,.5);
+  margin: 0;
+  max-width: 360px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   2. STATS BELT — sits flush below page-hero content
+═══════════════════════════════════════════════════════════════════ */
+.stats-belt {
+  position: relative;
+  z-index: 2;
+  background: rgba(10, 20, 45, 0.25);
+  border-top: 1px solid rgba(184, 145, 74, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.stats-belt__inner {
+  max-width: var(--container-w);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.stats-belt__inner::-webkit-scrollbar { display: none; }
+
+/* Each stat item */
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 30px 48px 30px 0;
+  margin-right: 48px;
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  flex-shrink: 0;
+}
+.stat-item:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.stat-item__value { color: #ffffff;
+  font-size: clamp(1.8rem, 2.8vw, 2.8rem);
+  font-weight: 200;
+  color: var(--gold);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.stat-item__label {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  white-space: nowrap;
+}
+
+/* Light variant */
+.stats-belt--light {
+  background: var(--surface-2);
+  border-top: 1px solid var(--border);
+}
+.stats-belt--light .stat-item__value { color: #ffffff; color: var(--navy); }
+.stats-belt--light .stat-item__label { color: rgba(255,255,255,0.7); }
+.stats-belt--light .stat-item { border-right-color: var(--border); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   3. SPLIT SECTION
+   Two zones: text (left) + media/cards (right), 12-col grid
+═══════════════════════════════════════════════════════════════════ */
+.split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+.split-section--reversed { direction: rtl; }
+.split-section--reversed > * { direction: ltr; }
+
+.split-section--wide-left  { grid-template-columns: 6fr 5fr; }
+.split-section--wide-right { grid-template-columns: 5fr 6fr; }
+
+.split-section__text  { display: flex; flex-direction: column; gap: 20px; }
+.split-section__media { position: relative; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   4. MEDIA CLUSTER
+   Big tile (16:10) + 2 small tiles (3:2)
+═══════════════════════════════════════════════════════════════════ */
+.media-cluster { display: flex; flex-direction: column; gap: var(--gap); }
+
+.media-cluster__primary {
+  aspect-ratio: 16 / 10;
+  border-radius: var(--r-m);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 20px 56px rgba(13, 27, 62, 0.18);
+}
+.media-cluster__primary img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.media-cluster__primary:hover img { transform: scale(1.04); }
+.media-cluster__primary-shine {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.media-cluster__secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+}
+.media-cluster__thumb {
+  aspect-ratio: 3 / 2;
+  border-radius: var(--r-m);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(13, 27, 62, 0.1);
+}
+.media-cluster__thumb img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.media-cluster__thumb:hover img { transform: scale(1.06); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   5. CARD GRID
+═══════════════════════════════════════════════════════════════════ */
+.card-grid {
+  display: grid;
+  gap: var(--gap);
+}
+.card-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.card-grid--3 { grid-template-columns: repeat(3, 1fr); }
+.card-grid--4 { grid-template-columns: repeat(4, 1fr); }
+
+@media (max-width: 960px) {
+  .card-grid--3, .card-grid--4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .card-grid--2, .card-grid--3, .card-grid--4 { grid-template-columns: 1fr; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   6. BASE CARD — shared inner scaffold
+   label → value/title → support → [cta]
+═══════════════════════════════════════════════════════════════════ */
+.lyt-card {
+  border-radius: var(--r-m);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 28px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.lyt-card:hover {
+  border-color: var(--border-gold);
+  box-shadow: 0 10px 36px rgba(13, 27, 62, 0.09);
+  transform: translateY(-3px);
+}
+.lyt-card--dark {
+  background: var(--navy);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+.lyt-card--dark:hover { border-color: rgba(184, 145, 74, 0.3); }
+.lyt-card--accent {
+  background: linear-gradient(135deg, #1e3a60 0%, #2a5080 100%);
+  border-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+.lyt-card--accent::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184,145,74,.5), transparent);
+}
+
+/* Card typography */
+.lyt-card__meta {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--gold);
+}
+.lyt-card__value {
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  font-weight: 200; line-height: 1;
+  letter-spacing: -0.04em; color: var(--navy);
+}
+.lyt-card--dark .lyt-card__value,
+.lyt-card--accent .lyt-card__value { color: #ffffff; }
+.lyt-card__title {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 400; line-height: 1.3; color: var(--navy);
+}
+.lyt-card--dark .lyt-card__title,
+.lyt-card--accent .lyt-card__title { color: rgba(255,255,255,.88); }
+.lyt-card__support {
+  font-size: 0.82rem; line-height: 1.7;
+  color: rgba(13, 27, 62, 0.45);
+}
+.lyt-card--dark .lyt-card__support,
+.lyt-card--accent .lyt-card__support { color: rgba(255,255,255,.38); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   7. SECTION HEADER — eyebrow + title + subtitle
+═══════════════════════════════════════════════════════════════════ */
+.sec-hdr { margin-bottom: 48px; max-width: 640px; }
+.sec-hdr--center { max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
+.sec-hdr--wide { max-width: 800px; }
+
+.sec-hdr__eye {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 14px;
+}
+.sec-hdr__eye::before {
+  content: '';
+  display: inline-block; width: 22px; height: 1px;
+  background: linear-gradient(90deg, var(--gold), var(--gold2));
+}
+
+.sec-hdr__title {
+  font-size: clamp(1.8rem, 3.2vw, 3rem);
+  font-weight: 200; line-height: 1.15;
+  color: var(--navy); letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+.sec-hdr__title--light { color: #ffffff; }
+
+.sec-hdr__sub {
+  font-size: 1rem; line-height: 1.75;
+  color: rgba(13, 27, 62, 0.5); max-width: 560px;
+}
+.sec-hdr__sub--light { color: rgba(255, 255, 255, 0.45); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   8. CTA BUTTONS — unified pill geometry
+═══════════════════════════════════════════════════════════════════ */
+.lyt-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 14px 36px; border-radius: var(--r-pill);
+  border: none; cursor: pointer; text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  white-space: nowrap;
+}
+
+.lyt-btn--primary {
+  background: linear-gradient(135deg, var(--gold), var(--gold2), var(--gold));
+  background-size: 200% 100%;
+  color: #06101f;
+  box-shadow: 0 6px 24px rgba(184, 145, 74, 0.28);
+}
+.lyt-btn--primary:hover {
+  background-position: 100%;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(184, 145, 74, 0.38);
+}
+
+.lyt-btn--secondary {
+  background: transparent;
+  border: 1.5px solid rgba(13, 27, 62, 0.2);
+  color: var(--navy);
+}
+.lyt-btn--secondary:hover {
+  border-color: var(--gold);
+  background: rgba(184, 145, 74, 0.06);
+}
+
+.lyt-btn--ghost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.65);
+}
+.lyt-btn--ghost:hover {
+  border-color: rgba(184, 145, 74, 0.45);
+  color: var(--gold2);
+  background: rgba(184, 145, 74, 0.07);
+}
+
+/* Arrow link */
+.lyt-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold); text-decoration: none;
+  transition: gap 0.3s ease;
+}
+.lyt-link:hover { gap: 14px; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   9. RESPONSIVE
+═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  :root {
+    --sp-section: 72px;
+    --hero-h:     420px;
+    --hero-pad-t: 88px;
+    --hero-pad-b: 48px;
+  }
+}
+@media (max-width: 900px) {
+  :root {
+    --sp-section: 56px;
+    --hero-pad-t: 80px;
+    --hero-pad-b: 36px;
+  }
+  .page-hero { height: auto; min-height: 320px; }
+  .page-hero__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-bottom: var(--hero-pad-b);
+  }
+  .page-hero__right { max-width: 100%; align-self: auto; }
+  .split-section { grid-template-columns: 1fr; }
+  .split-section--reversed { direction: ltr; }
+  .stat-item { padding: 20px 28px 20px 0; margin-right: 28px; }
+}
+@media (max-width: 540px) {
+  .page-hero__title { font-size: 2.4rem; }
+  .stat-item { padding: 16px 20px 16px 0; margin-right: 20px; }
+  .stat-item__value { color: #ffffff; font-size: 1.5rem; }
+}
